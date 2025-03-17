@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 dd4ed96b277fc48f373f4737b8c555ed99a580e7 Will Hohyon Ryu <will@oxopolitics.com> 1742189864 +0900	commit (initial): Initialize project using Create React App
+dd4ed96b277fc48f373f4737b8c555ed99a580e7 acedd21b8a442600ac477a293de1f7a66a10d4d3 Will Hohyon Ryu <will@oxopolitics.com> 1742193618 +0900	commit: Add Tailwind CSS setup and implement landing page layout
