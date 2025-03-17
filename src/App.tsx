@@ -16,7 +16,9 @@ import Toolbar from './components/Toolbar';
 
 function App() {
   // Check if we're in design mode or preview mode
-  const isDesignMode = window.location.pathname === '/design';
+  // Account for GitHub Pages base path
+  const isDesignMode = window.location.pathname.endsWith('/design') || 
+                       window.location.pathname === '/design';
 
   if (isDesignMode) {
     return (
