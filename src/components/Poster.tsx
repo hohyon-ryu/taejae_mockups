@@ -2,39 +2,18 @@ import React from 'react';
 
 const Poster = () => {
   return (
-    <div className="bg-white p-8 w-full">
+    <div className="bg-white p-6 w-full">
       <div className="max-w-4xl mx-auto text-gray-800">
         {/* 헤더 */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">디지털 전환과 사회변혁</h1>
           <p className="text-2xl text-gray-700">디지털 기술은 어떻게 사회를 변화시키고 어떠한 문제들을 만드는가?</p>
           <div className="w-32 h-1 bg-blue-700 mx-auto mt-4"></div>
         </div>
 
-        {/* 통합 섹션: 기술과 사회 변화 + 분석 프레임워크 */}
-        <div className="mb-6 border-2 border-gray-200 p-4 rounded-lg">
-          <h2 className="text-2xl font-bold mb-3 text-gray-800 border-b-2 border-gray-200 pb-2">
-            기술이 사회를 변화시키는 3단계 메커니즘
-          </h2>
-          
-          <div className="grid grid-cols-3 gap-3 text-center">
-            <div className="border-r-2 border-gray-200 pr-2">
-              <h3 className="text-lg font-bold text-blue-700">강화 (Enhancement)</h3>
-              <p className="text-sm">기술이 인간의 인지·정보 처리 능력을 확장하고 의사결정 역량을 증폭</p>
-            </div>
-            <div className="border-r-2 border-gray-200 pr-2">
-              <h3 className="text-lg font-bold text-green-700">연결 (Connection)</h3>
-              <p className="text-sm">기술이 인간과 공동체 간 관계를 재구성하고 권력 구조를 변화</p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-purple-700">시너지 (Synergy)</h3>
-              <p className="text-sm">강화와 연결의 결합이 새로운 가능성을 창출하고 체계적 문제 해결</p>
-            </div>
-          </div>
-        </div>
 
         {/* DIKW 모델 범례 */}
-        <div className="mb-4 border-2 border-gray-200 p-3 rounded-lg">
+        <div className="mb-3 border-2 border-gray-200 p-2 rounded-lg">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <h4 className="font-bold text-md mr-2">DIKW 모델:</h4>
@@ -50,11 +29,11 @@ const Poster = () => {
         </div>
 
         {/* 섹션: 의사결정 권력의 다섯 시대 */}
-        <div className="space-y-6">
+        <div className="space-y-3">
           {/* 1. 권위 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">1. 권위자 시대</h3>
+              <h3 className="text-xl font-bold text-gray-800">1. 권위자 시대 <span className="text-sm font-normal text-gray-600">(필사본과 구전)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -85,34 +64,34 @@ const Poster = () => {
               </div>
               
               {/* DIKW 바 차트 */}
-              <div className="mt-3">
+              <div className="mt-2">
                 <div className="grid grid-cols-4 gap-1">
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">데이터</span>
-                      <span className="text-xs">(필사본, 기록)</span>
+                      <span className="text-xs">(수기 기록 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">정보</span>
-                      <span className="text-xs">(번역, 해석)</span>
+                      <span className="text-xs">(구술 전달 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지식</span>
-                      <span className="text-xs">(교리, 법전)</span>
+                      <span className="text-xs">(문자 체계 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(판단, 결정)</span>
+                      <span className="text-xs">(권위자 결정 체계)</span>
                     </span>
                   </div>
                 </div>
-                <p className="text-xs mt-2 text-gray-600">
+                <p className="text-xs mt-1 text-gray-600">
                   기술은 거의 활용되지 않고, 인간이 모든 단계를 직접 처리하며 권위자의 경험과 전통에 기반한 의사결정이 이루어짐
                 </p>
               </div>
@@ -122,7 +101,7 @@ const Poster = () => {
           {/* 2. 정보 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">2. 전문가 시대</h3>
+              <h3 className="text-xl font-bold text-gray-800">2. 전문가 시대 <span className="text-sm font-normal text-gray-600">(인쇄술과 대중 미디어)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -158,25 +137,25 @@ const Poster = () => {
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">데이터</span>
-                      <span className="text-xs">(통계, 측정)</span>
+                      <span className="text-xs">(기계식 측정 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">정보</span>
-                      <span className="text-xs">(분석, 그래프)</span>
+                      <span className="text-xs">(아날로그 분석 도구)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지식</span>
-                      <span className="text-xs">(전문서적, 이론)</span>
+                      <span className="text-xs">(대량 인쇄 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(정책, 전략)</span>
+                      <span className="text-xs">(전문가 협의 체계)</span>
                     </span>
                   </div>
                 </div>
@@ -190,7 +169,7 @@ const Poster = () => {
           {/* 3. 알고리즘 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">3. 분석가 시대</h3>
+              <h3 className="text-xl font-bold text-gray-800">3. 분석가 시대 <span className="text-sm font-normal text-gray-600">(빅데이터와 알고리즘)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -226,25 +205,25 @@ const Poster = () => {
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">데이터</span>
-                      <span className="text-xs">(빅데이터, 센서)</span>
+                      <span className="text-xs">(디지털 센서 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">정보</span>
-                      <span className="text-xs">(패턴, 추세)</span>
+                      <span className="text-xs">(알고리즘 분석 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지식</span>
-                      <span className="text-xs">(모델, 이론)</span>
+                      <span className="text-xs">(컴퓨터 모델링 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(의사결정, 전략)</span>
+                      <span className="text-xs">(의사결정 지원 시스템)</span>
                     </span>
                   </div>
                 </div>
@@ -258,7 +237,7 @@ const Poster = () => {
           {/* 4. 시너지 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">4. 가치 결정 시대</h3>
+              <h3 className="text-xl font-bold text-gray-800">4. 가치 결정 시대 <span className="text-sm font-normal text-gray-600">(생성형 AI)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -294,25 +273,25 @@ const Poster = () => {
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">데이터</span>
-                      <span className="text-xs">(IoT, 실시간 감지)</span>
+                      <span className="text-xs">(IoT 센서 네트워크)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">정보</span>
-                      <span className="text-xs">(자동화 분석)</span>
+                      <span className="text-xs">(머신러닝 분석 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지식</span>
-                      <span className="text-xs">(딥러닝 모델)</span>
+                      <span className="text-xs">(생성형 AI 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(협력적 의사결정)</span>
+                      <span className="text-xs">(인간-AI 협업 시스템)</span>
                     </span>
                   </div>
                 </div>
@@ -326,7 +305,7 @@ const Poster = () => {
           {/* 5. 초지능 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">5. 초지능 시대</h3>
+              <h3 className="text-xl font-bold text-gray-800">5. 초지능 시대 <span className="text-sm font-normal text-gray-600">(범용 인공지능)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -362,25 +341,25 @@ const Poster = () => {
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">데이터</span>
-                      <span className="text-xs">(양자 감지)</span>
+                      <span className="text-xs">(양자 컴퓨팅 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">정보</span>
-                      <span className="text-xs">(초병렬 처리)</span>
+                      <span className="text-xs">(신경망 처리 기술)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지식</span>
-                      <span className="text-xs">(범용 AI 모델)</span>
+                      <span className="text-xs">(자가학습 AI 시스템)</span>
                     </span>
                   </div>
                   <div className="h-12 bg-red-500 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(자율 의사결정)</span>
+                      <span className="text-xs">(AGI 의사결정 시스템)</span>
                     </span>
                   </div>
                 </div>
@@ -393,7 +372,7 @@ const Poster = () => {
         </div>
         
         {/* 푸터 */}
-        <div className="mt-6 pt-4 border-t-2 border-gray-200 text-center text-gray-500">
+        <div className="mt-3 pt-2 border-t-2 border-gray-200 text-center text-gray-500">
           <p>© 2025 디지털 전환과 사회변혁 팀</p>
         </div>
       </div>
