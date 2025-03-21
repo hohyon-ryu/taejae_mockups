@@ -6,7 +6,7 @@ const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full">
-        <h1 className="text-3xl font-bold text-center mb-8 text-moiza-purple">Design Mockup Tool</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-moiza-purple">태재미래전략연구원 프로젝트 디자인 Mockups</h1>
         
         <div className="space-y-4">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
@@ -44,7 +44,7 @@ const LandingPage: React.FC = () => {
         </div>
         
         <p className="text-center mt-8 text-gray-500 text-sm">
-          © 2025 Design Mockup Tool. All rights reserved.
+          © 2025 태재미래전략연구원. All rights reserved.
         </p>
       </div>
     </div>
