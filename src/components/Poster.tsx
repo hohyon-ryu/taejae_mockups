@@ -7,7 +7,7 @@ const Poster = () => {
         {/* 헤더 */}
         <div className="text-center mb-6">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">디지털 전환과 사회변혁</h1>
-          <p className="text-2xl text-gray-700">디지털 기술은 어떻게 사회를 변화시키고며, 파생된 문제들을 어떻게 해결해야 하는가?</p>
+          <p className="text-2xl text-gray-700">디지털 기술은 어떻게 사회를 변화시키며, 파생된 문제들을 어떻게 해결해야 하는가?</p>
           <div className="w-32 h-1 bg-blue-700 mx-auto mt-4"></div>
         </div>
 
@@ -54,7 +54,7 @@ const Poster = () => {
                   </ul>
                 </div>
                 <div className="border-l-4 border-purple-700 pl-2 col-span-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
+                  <h4 className="font-semibold text-purple-700">시대적 과제와 다음 시대를 여는 기술</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
                     <li>• 문해력 부족과 지식 독점 → 활판 인쇄술</li>
                     <li>• 정보 전달의 지리적 한계 → 종이 대량 생산 및 우편 시스템</li>
@@ -122,11 +122,11 @@ const Poster = () => {
                   </ul>
                 </div>
                 <div className="border-l-4 border-purple-700 pl-2 col-span-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
+                  <h4 className="font-semibold text-purple-700">시대적 과제와 다음 시대를 여는 기술</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 정보 생산의 중앙집중화 → 개인용 컴퓨터</li>
                     <li>• 소수 기업/정부의 정보 통제 → 인터넷 및 분산 네트워크</li>
                     <li>• 일반 시민의 정보 생산 참여 제한 → 소셜 미디어 및 UGC 플랫폼</li>
+                    <li>• 정보 과잉과 개인화된 콘텐츠 필요 → 추천 알고리즘 개발</li>
                   </ul>
                 </div>
               </div>
@@ -190,11 +190,11 @@ const Poster = () => {
                   </ul>
                 </div>
                 <div className="border-l-4 border-purple-700 pl-2 col-span-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
+                  <h4 className="font-semibold text-purple-700">시대적 과제와 다음 시대를 여는 기술</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 정보 과잉으로 인한 관련 정보 찾기 어려움 → 대규모 언어 모델(LLM)</li>
-                    <li>• 데이터 양의 폭증과 처리 한계 → 딥러닝 및 신경망 기술</li>
-                    <li>• 정보 신뢰성과 조작 문제 → 생성형 AI 및 검증 시스템</li>
+                    <li>• 디지털 정보 폭발로 개인 맞춤형 정보 처리 필요 → 생성형 AI</li>
+                    <li>• 인간 인지 한계를 넘어선 복잡한 패턴 분석 → 자율학습 신경망과 예측 모델링</li>
+                    <li>• 가짜정보 확산과 디지털 신뢰 위기 → 블록체인 기반 출처 검증 시스템</li>
                   </ul>
                 </div>
               </div>
@@ -258,7 +258,7 @@ const Poster = () => {
                   </ul>
                 </div>
                 <div className="border-l-4 border-purple-700 pl-2 col-span-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
+                  <h4 className="font-semibold text-purple-700">시대적 과제와 다음 시대를 여는 기술</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
                     <li>• AI 시스템의 불투명성과 의사결정 과정 → 설명 가능한 AI(XAI)</li>
                     <li>• 인간-AI 협업의 효율성과 신뢰 문제 → 뇌-컴퓨터 인터페이스</li>
@@ -326,10 +326,10 @@ const Poster = () => {
                   </ul>
                 </div>
                 <div className="border-l-4 border-purple-700 pl-2 col-span-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
+                  <h4 className="font-semibold text-purple-700">시대적 과제와 다음 시대를 여는 기술</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
                     <li>• 인간의 통제력과 자율성 유지 문제 → 범용 인공지능(AGI)과 가치정렬 시스템</li>
-                    <li>• 초복잡 문제(기후변화, 우주탐사 등)의 해결 → 행성 규모 컴퓨팅 네트워크</li>
+                    <li>• 초복잡 문제(기후변화, 우주탐사 등)의 해결 → 전지구적 컴퓨팅 네트워크</li>
                     <li>• 인간-AI 공존과 정체성 재정의 → 의식 통합 네트워크 및 초인지 인터페이스</li>
                   </ul>
                 </div>
