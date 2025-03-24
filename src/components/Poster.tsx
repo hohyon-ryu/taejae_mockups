@@ -53,20 +53,12 @@ const Poster = () => {
                     <li>• 신분과 가문에 종속된 정체성</li>
                   </ul>
                 </div>
-                <div className="border-l-4 border-purple-700 pl-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제의 발생</h4>
+                <div className="border-l-4 border-purple-700 pl-2 col-span-2">
+                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 문해력 격차와 지식 접근성 제한</li>
-                    <li>• 권력 집중과 불평등 심화</li>
-                    <li>• 정보 독점으로 인한 사회 분열</li>
-                  </ul>
-                </div>
-                <div className="border-l-4 border-yellow-600 pl-2">
-                  <h4 className="font-semibold text-yellow-600">시스템적 해결</h4>
-                  <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 계층 간 지식 전수 제도 마련</li>
-                    <li>• 공동체 기반 정보 공유 체계</li>
-                    <li>• 사회적 합의 기반 의사결정</li>
+                    <li>• 문해력 부족과 지식 독점 → 활판 인쇄술</li>
+                    <li>• 정보 전달의 지리적 한계 → 종이 대량 생산 및 우편 시스템</li>
+                    <li>• 자연현상 이해의 주관성 → 과학적 실험도구 및 방법론</li>
                   </ul>
                 </div>
               </div>
@@ -129,20 +121,12 @@ const Poster = () => {
                     <li>• 관심사/계층 기반 커뮤니티 형성</li>
                   </ul>
                 </div>
-                <div className="border-l-4 border-purple-700 pl-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제의 발생</h4>
+                <div className="border-l-4 border-purple-700 pl-2 col-span-2">
+                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 교육 접근성과 질적 격차</li>
-                    <li>• 전문가 집단의 권력 독점</li>
-                    <li>• 정보 불평등과 사회적 분리</li>
-                  </ul>
-                </div>
-                <div className="border-l-4 border-yellow-600 pl-2">
-                  <h4 className="font-semibold text-yellow-600">시스템적 해결</h4>
-                  <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 공공 교육 시스템 제도화</li>
-                    <li>• 정보 접근성 보장 법제화</li>
-                    <li>• 대의민주주의 의사결정 체계</li>
+                    <li>• 정보 생산의 중앙집중화 → 개인용 컴퓨터</li>
+                    <li>• 소수 기업/정부의 정보 통제 → 인터넷 및 분산 네트워크</li>
+                    <li>• 일반 시민의 정보 생산 참여 제한 → 소셜 미디어 및 UGC 플랫폼</li>
                   </ul>
                 </div>
               </div>
@@ -205,20 +189,12 @@ const Poster = () => {
                     <li>• 플랫폼 기업의 중개자 권력 강화</li>
                   </ul>
                 </div>
-                <div className="border-l-4 border-purple-700 pl-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제의 발생</h4>
+                <div className="border-l-4 border-purple-700 pl-2 col-span-2">
+                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 알고리즘 편향과 자동화된 차별</li>
-                    <li>• 디지털 리터러시 격차 심화</li>
-                    <li>• 데이터 프라이버시와 주권 문제</li>
-                  </ul>
-                </div>
-                <div className="border-l-4 border-yellow-600 pl-2">
-                  <h4 className="font-semibold text-yellow-600">시스템적 해결</h4>
-                  <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 디지털 권리와 데이터 보호법</li>
-                    <li>• 알고리즘 투명성 규제 체계</li>
-                    <li>• 디지털 리터러시 교육 정책</li>
+                    <li>• 정보 과잉으로 인한 관련 정보 찾기 어려움 → 대규모 언어 모델(LLM)</li>
+                    <li>• 데이터 양의 폭증과 처리 한계 → 딥러닝 및 신경망 기술</li>
+                    <li>• 정보 신뢰성과 조작 문제 → 생성형 AI 및 검증 시스템</li>
                   </ul>
                 </div>
               </div>
@@ -281,20 +257,12 @@ const Poster = () => {
                     <li>• 관심사 기반 글로벌 커뮤니티</li>
                   </ul>
                 </div>
-                <div className="border-l-4 border-purple-700 pl-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제의 발생</h4>
+                <div className="border-l-4 border-purple-700 pl-2 col-span-2">
+                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• AI 기술 접근성 격차</li>
-                    <li>• 인지 자율성 약화 우려</li>
-                    <li>• AI 의존성 증후군 발생</li>
-                  </ul>
-                </div>
-                <div className="border-l-4 border-yellow-600 pl-2">
-                  <h4 className="font-semibold text-yellow-600">시스템적 해결</h4>
-                  <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• AI 윤리 가이드라인 제도화</li>
-                    <li>• 디지털 공공재 접근성 보장</li>
-                    <li>• 인간-AI 협력 거버넌스 체계</li>
+                    <li>• AI 시스템의 불투명성과 의사결정 과정 → 설명 가능한 AI(XAI)</li>
+                    <li>• 인간-AI 협업의 효율성과 신뢰 문제 → 뇌-컴퓨터 인터페이스</li>
+                    <li>• 복잡한 시스템 간 상호작용 문제 → 양자 컴퓨팅 시뮬레이션</li>
                   </ul>
                 </div>
               </div>
@@ -357,20 +325,12 @@ const Poster = () => {
                     <li>• 행성적 의식 그리드 형성</li>
                   </ul>
                 </div>
-                <div className="border-l-4 border-purple-700 pl-2">
-                  <h4 className="font-semibold text-purple-700">사회 문제의 발생</h4>
+                <div className="border-l-4 border-purple-700 pl-2 col-span-2">
+                  <h4 className="font-semibold text-purple-700">사회 문제와 기술적 해결</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 인간 역할의 근본적 재정의</li>
-                    <li>• 초지능 결정의 불투명성 문제</li>
-                    <li>• 존재론적 정체성 위기</li>
-                  </ul>
-                </div>
-                <div className="border-l-4 border-yellow-600 pl-2">
-                  <h4 className="font-semibold text-yellow-600">시스템적 해결</h4>
-                  <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 초지능 규제 국제 협약 체계</li>
-                    <li>• 인간 존엄성 보장 헌장 수립</li>
-                    <li>• 범지구적 의사결정 거버넌스</li>
+                    <li>• 인간의 통제력과 자율성 유지 문제 → 범용 인공지능(AGI)과 가치정렬 시스템</li>
+                    <li>• 초복잡 문제(기후변화, 우주탐사 등)의 해결 → 행성 규모 컴퓨팅 네트워크</li>
+                    <li>• 인간-AI 공존과 정체성 재정의 → 의식 통합 네트워크 및 초인지 인터페이스</li>
                   </ul>
                 </div>
               </div>
