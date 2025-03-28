@@ -3,7 +3,7 @@ import React from 'react';
 const Poster = () => {
   return (
     <div className="bg-white p-6 w-full">
-      <div className="max-w-4xl mx-auto text-gray-800">
+      <div className="max-w-6xl mx-auto text-gray-800">
         {/* 헤더 */}
         <div className="text-center mb-6">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">디지털 전환과 사회변혁</h1>
@@ -33,7 +33,7 @@ const Poster = () => {
           {/* 1. 권위 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">1. 권위 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(필사본과 구전)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">1. 권위 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(~3000 BCE - 1450 CE, 약 5000년, 필사본과 구전)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -101,7 +101,7 @@ const Poster = () => {
           {/* 2. 정보 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">2. 전문성 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(인쇄술과 대중 미디어)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">2. 전문성 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1450 - 1990, 약 500년, 인쇄술과 대중 미디어)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -169,7 +169,7 @@ const Poster = () => {
           {/* 3. 알고리즘 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">3. 알고리즘 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(빅데이터와 알고리즘)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">3. 알고리즘 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1990 - 2020, 약 30년, 빅데이터와 알고리즘)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -237,7 +237,7 @@ const Poster = () => {
           {/* 4. 시너지 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">4. 가치 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(생성형 AI)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">4. 가치 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2020 - 현재, 약 5년, 생성형 AI)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -305,7 +305,7 @@ const Poster = () => {
           {/* 5. 초지능 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">5. 초지능 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(범용 인공지능)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">5. 초지능 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2030 이후 예상, 범용 인공지능)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -370,11 +370,7 @@ const Poster = () => {
             </div>
           </div>
         </div>
-        
-        {/* 푸터 */}
-        <div className="mt-3 pt-2 border-t-2 border-gray-200 text-center text-gray-500">
-          <p>© 2025 디지털 전환과 사회변혁 팀</p>
-        </div>
+
       </div>
     </div>
   );
