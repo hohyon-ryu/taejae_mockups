@@ -8,9 +8,14 @@ const PostersListPage: React.FC = () => {
       id: 1,
       title: '디지털 전환과 사회변혁',
       description: '디지털 기술은 어떻게 사회를 변화시키며, 파생된 문제들을 어떻게 해결해야 하는가?',
-      path: '/poster'
+      path: '/poster/digital-transformation'
+    },
+    {
+      id: 2,
+      title: '디지털 전환에 따른 사회 구조의 변화',
+      description: '시대별 공동체 영역 변화 매트릭스',
+      path: '/poster/social-structure-matrix'
     }
-    // More posters can be added here in the future
   ];
 
   // Basic SEO setup

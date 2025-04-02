@@ -8,7 +8,8 @@ import MainPage from './pages/MainPage';
 import QuestionDetailPage from './pages/QuestionDetailPage';
 import ExplorationPage from './pages/ExplorationPage';
 import PosterPage from './pages/PosterPage'; // Import the page using relative path
-import PostersListPage from './pages/PostersListPage'; // Import the new posters list page
+import SocialStructureMatrixPosterPage from './pages/SocialStructureMatrixPosterPage'; // Import the new poster page
+import PostersListPage from './pages/PostersListPage'; // Import the posters list page
 
 // Components
 // import Poster from './components/Poster'; // Remove direct Poster import
@@ -21,8 +22,9 @@ function App() {
         <Route path="/moiza" element={<MainPage />} />
         <Route path="/moiza/question/:id" element={<QuestionDetailPage />} />
         <Route path="/moiza/explore" element={<ExplorationPage />} />
-        <Route path="/posters" element={<PostersListPage />} /> {/* New route for posters list */}
-        <Route path="/poster" element={<PosterPage />} /> {/* Use PosterPage for the route */}
+        <Route path="/posters" element={<PostersListPage />} /> {/* Route for posters list */}
+        <Route path="/poster/digital-transformation" element={<PosterPage />} /> {/* Renamed route for first poster */}
+        <Route path="/poster/social-structure-matrix" element={<SocialStructureMatrixPosterPage />} /> {/* Route for second poster */}
       </Routes>
     </Router>
   );

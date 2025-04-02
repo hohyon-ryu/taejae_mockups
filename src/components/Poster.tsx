@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Poster = () => {
+const DigitalTransformationPoster = () => {
   return (
     <div className="bg-white p-6 w-full">
       <div className="max-w-6xl mx-auto text-gray-800">
@@ -376,4 +376,4 @@ const Poster = () => {
   );
 };
 
-export default Poster;
+export default DigitalTransformationPoster;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Poster from '../components/Poster'; // Using relative path
+import DigitalTransformationPoster from '../components/Poster'; // Using the renamed component
 
 const PosterPage: React.FC = () => {
   // You might want to fetch specific poster data here if needed
@@ -22,7 +22,7 @@ const PosterPage: React.FC = () => {
   }, []);
 
   return (
-    <Poster />
+    <DigitalTransformationPoster />
   );
 };
 
