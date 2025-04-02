@@ -8,6 +8,7 @@ import MainPage from './pages/MainPage';
 import QuestionDetailPage from './pages/QuestionDetailPage';
 import ExplorationPage from './pages/ExplorationPage';
 import PosterPage from './pages/PosterPage'; // Import the page using relative path
+import PostersListPage from './pages/PostersListPage'; // Import the new posters list page
 
 // Components
 // import Poster from './components/Poster'; // Remove direct Poster import
@@ -20,6 +21,7 @@ function App() {
         <Route path="/moiza" element={<MainPage />} />
         <Route path="/moiza/question/:id" element={<QuestionDetailPage />} />
         <Route path="/moiza/explore" element={<ExplorationPage />} />
+        <Route path="/posters" element={<PostersListPage />} /> {/* New route for posters list */}
         <Route path="/poster" element={<PosterPage />} /> {/* Use PosterPage for the route */}
       </Routes>
     </Router>

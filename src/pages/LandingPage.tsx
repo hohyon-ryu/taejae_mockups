@@ -26,15 +26,15 @@ const LandingPage: React.FC = () => {
           </div>
           
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-            <Link to="/poster" className="block no-underline text-black">
+            <Link to="/posters" className="block no-underline text-black">
               <div className="p-6">
-                <h2 className="text-xl font-semibold mb-2">디지털 전환과 사회변혁 포스터</h2>
+                <h2 className="text-xl font-semibold mb-2">포스터 목록</h2>
                 <p className="text-gray-600 mb-4">
-                  디지털 기술이 사회를 변화시키는 메커니즘과 의사결정 권력의 다섯 시대를 보여주는 학술 포스터입니다.
+                  태재미래전략연구원에서 제작한 모든 포스터를 확인할 수 있는 페이지입니다.
                 </p>
                 <div className="flex justify-end">
                   <span className="inline-block bg-blue-700 text-white px-4 py-2 rounded-md">
-                    View Poster
+                    포스터 목록 보기
                   </span>
                 </div>
               </div>

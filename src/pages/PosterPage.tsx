@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Poster from '../components/Poster'; // Using relative path
 
 const PosterPage: React.FC = () => {
@@ -21,7 +22,7 @@ const PosterPage: React.FC = () => {
   }, []);
 
   return (
-      <Poster />
+    <Poster />
   );
 };
 
