@@ -169,7 +169,7 @@ const DigitalTransformationPoster = () => {
           {/* 3. 알고리즘 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">3. 알고리즘 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1990 - 2020, 약 30년, 빅데이터와 알고리즘)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">3. 알고리즘 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1990 - 2020, 약 30년, 인터넷, 빅데이터, 알고리즘)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
