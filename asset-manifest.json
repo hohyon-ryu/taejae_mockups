@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/taejae_mockups/static/css/main.05cbe21f.css",
-    "main.js": "/taejae_mockups/static/js/main.48073395.js",
+    "main.js": "/taejae_mockups/static/js/main.040c2831.js",
     "static/js/453.e630f678.chunk.js": "/taejae_mockups/static/js/453.e630f678.chunk.js",
     "index.html": "/taejae_mockups/index.html",
     "main.05cbe21f.css.map": "/taejae_mockups/static/css/main.05cbe21f.css.map",
-    "main.48073395.js.map": "/taejae_mockups/static/js/main.48073395.js.map",
+    "main.040c2831.js.map": "/taejae_mockups/static/js/main.040c2831.js.map",
     "453.e630f678.chunk.js.map": "/taejae_mockups/static/js/453.e630f678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05cbe21f.css",
-    "static/js/main.48073395.js"
+    "static/js/main.040c2831.js"
   ]
 }
