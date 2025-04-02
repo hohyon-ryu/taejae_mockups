@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/taejae_mockups/static/css/main.c5e3ca6b.css",
-    "main.js": "/taejae_mockups/static/js/main.69d5652a.js",
+    "main.css": "/taejae_mockups/static/css/main.2fdfa49b.css",
+    "main.js": "/taejae_mockups/static/js/main.b4f10c44.js",
     "static/js/453.e630f678.chunk.js": "/taejae_mockups/static/js/453.e630f678.chunk.js",
     "index.html": "/taejae_mockups/index.html",
-    "main.c5e3ca6b.css.map": "/taejae_mockups/static/css/main.c5e3ca6b.css.map",
-    "main.69d5652a.js.map": "/taejae_mockups/static/js/main.69d5652a.js.map",
+    "main.2fdfa49b.css.map": "/taejae_mockups/static/css/main.2fdfa49b.css.map",
+    "main.b4f10c44.js.map": "/taejae_mockups/static/js/main.b4f10c44.js.map",
     "453.e630f678.chunk.js.map": "/taejae_mockups/static/js/453.e630f678.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e3ca6b.css",
-    "static/js/main.69d5652a.js"
+    "static/css/main.2fdfa49b.css",
+    "static/js/main.b4f10c44.js"
   ]
 }
