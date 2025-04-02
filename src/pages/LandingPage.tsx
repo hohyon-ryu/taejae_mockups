@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Poster from '../components/Poster';
 
 const LandingPage: React.FC = () => {
   return (

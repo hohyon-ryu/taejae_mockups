@@ -8,23 +8,23 @@ const Poster = () => {
         <div className="text-center mb-6">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">디지털 전환과 사회변혁</h1>
           <p className="text-2xl text-gray-700">디지털 기술은 어떻게 사회를 변화시키며, 파생된 문제들을 어떻게 해결해야 하는가?</p>
-          <div className="w-32 h-1 bg-blue-700 mx-auto mt-4"></div>
         </div>
-
-
-        {/* DIKW 모델 범례 */}
-        <div className="mb-3 border-2 border-gray-200 p-2 rounded-lg">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <h4 className="font-bold text-md mr-2">DIKW 모델:</h4>
-              <p className="text-sm">데이터(D) → 정보(I) → 지식(K) → 지혜(W)로 이어지는 의사결정 과정</p>
+        {/* 데이터-정보-지식-지혜 모델 범례 */}
+        <div className="mb-3 border-2 border-gray-200 p-3 rounded-lg">
+          <div className="flex flex-col space-y-2">
+            <div className="flex flex-wrap items-start justify-between">
+              <div className="flex items-end">
+                <h4 className="font-bold text-md whitespace-nowrap">데이터-정보-지식-지혜 모델</h4>
+                <p className="text-xs text-gray-500 ml-1">(Russell Ackoff, 1989)</p>
+              </div>
+              <div className="flex items-center whitespace-nowrap ml-auto">
+                <div className="w-4 h-4 bg-red-500 mr-2"></div>
+                <span className="text-sm mr-4">기술이 주도</span>
+                <div className="w-4 h-4 bg-green-600 mr-2"></div>
+                <span className="text-sm">인간이 주도</span>
+              </div>
             </div>
-            <div className="flex items-center">
-              <div className="w-4 h-4 bg-red-500 mr-2"></div>
-              <span className="text-sm mr-4">기술이 주도</span>
-              <div className="w-4 h-4 bg-green-600 mr-2"></div>
-              <span className="text-sm">인간이 주도</span>
-            </div>
+            <p className="text-sm mt-1">데이터 수집 → 맥락화된 정보 생성 → 패턴 인식을 통한 지식 구축 → 가치 판단을 → 지혜로운 의사 결정</p>
           </div>
         </div>
 
