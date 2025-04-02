@@ -237,7 +237,7 @@ const DigitalTransformationPoster = () => {
           {/* 4. 시너지 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">4. 가치 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2020 - 현재, 약 5년, 생성형 AI)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">4. 가치 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2020 - 현재, 약 10년, 생성형 AI)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
