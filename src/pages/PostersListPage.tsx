@@ -8,7 +8,7 @@ const PostersListPage: React.FC = () => {
       id: 1,
       title: '디지털 전환과 사회변혁',
       description: '디지털 기술은 어떻게 사회를 변화시키며, 파생된 문제들을 어떻게 해결해야 하는가?',
-      path: '/poster/digital-transformation'
+      path: '/poster/digital-transformation-social-change'
     },
     {
       id: 2,

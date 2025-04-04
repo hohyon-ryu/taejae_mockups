@@ -23,7 +23,7 @@ function App() {
         <Route path="/moiza/question/:id" element={<QuestionDetailPage />} />
         <Route path="/moiza/explore" element={<ExplorationPage />} />
         <Route path="/posters" element={<PostersListPage />} /> {/* Route for posters list */}
-        <Route path="/poster/digital-transformation" element={<PosterPage />} /> {/* Renamed route for first poster */}
+        <Route path="/poster/digital-transformation-social-change" element={<PosterPage />} /> {/* Renamed route for first poster */}
         <Route path="/poster/social-structure-matrix" element={<SocialStructureMatrixPosterPage />} /> {/* Route for second poster */}
       </Routes>
     </Router>

@@ -17,11 +17,11 @@ const SocialStructureMatrixPoster = () => {
             <thead>
               <tr className="bg-gray-800 text-white">
                 <th className="p-3 text-left font-bold border-r-2 border-gray-700 w-1/7">층위</th>
-                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-amber-800 bg-opacity-80 w-1/7">권위 기반 의사결정 시대<br/>(필사본과 구전)</th>
-                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-emerald-800 bg-opacity-80 w-1/7">전문성 기반 의사결정 시대<br/>(인쇄술과 대중 미디어)</th>
-                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-blue-800 bg-opacity-80 w-1/7">알고리즘 기반 의사결정 시대<br/>(빅데이터와 초기 AI)</th>
-                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-purple-800 bg-opacity-80 w-1/7">가치 기반 의사결정 시대<br/>(생성형 AI)</th>
-                <th className="p-3 text-left font-bold bg-rose-800 bg-opacity-80 w-1/7">초지능 의사결정 시대<br/>(범용 인공지능)</th>
+                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-amber-800 bg-opacity-80 w-1/7">권위 기반 의사결정 시대<br/>(필사본과 구전)<br/><span className="text-xs">(종교지도자, 귀족)</span></th>
+                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-emerald-800 bg-opacity-80 w-1/7">전문성 기반 의사결정 시대<br/>(인쇄술과 대중 미디어)<br/><span className="text-xs">(전문가, 지식인)</span></th>
+                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-blue-800 bg-opacity-80 w-1/7">알고리즘 기반 의사결정 시대<br/>(빅데이터와 초기 AI)<br/><span className="text-xs">(플랫폼, 알고리즘)</span></th>
+                <th className="p-3 text-left font-bold border-r-2 border-gray-700 bg-purple-800 bg-opacity-80 w-1/7">가치 기반 의사결정 시대<br/>(생성형 AI)<br/><span className="text-xs">(인간-AI 협업)</span></th>
+                <th className="p-3 text-left font-bold bg-rose-800 bg-opacity-80 w-1/7">초지능 의사결정 시대<br/>(범용 인공지능)<br/><span className="text-xs">(초지능 AI 시스템)</span></th>
               </tr>
             </thead>
             <tbody>
