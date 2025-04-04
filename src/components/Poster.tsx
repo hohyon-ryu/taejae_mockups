@@ -33,16 +33,16 @@ const DigitalTransformationPoster = () => {
           {/* 1. 권위 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">1. 권위 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(~3000 BCE - 1450 CE, 약 5000년, 필사본과 구전)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">1. 경험 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(~3000 BCE - 1450 CE, 약 5000년, 필사본과 구전)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
                 <div className="border-l-4 border-blue-700 pl-2">
                   <h4 className="font-semibold text-blue-700">의사 결정권의 변화</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 필사본과 구전 중심의 정보 전달</li>
+                    <li>• 관료적 전문가들의 데이터와 정보 수집</li>
                     <li>• 문자와 기록 체계의 발명</li>
-                    <li>• 권위자 중심의 의사결정 구조</li>
+                    <li>• 종교적 권위와 전통 기반 의사결정</li>
                   </ul>
                 </div>
                 <div className="border-l-4 border-green-700 pl-2">
@@ -92,7 +92,7 @@ const DigitalTransformationPoster = () => {
                   </div>
                 </div>
                 <p className="text-xs mt-1 text-gray-600">
-                  기술은 거의 활용되지 않고, 인간이 모든 단계를 직접 처리하며 권위자의 경험과 전통에 기반한 의사결정이 이루어짐
+                  기술은 거의 활용되지 않고, 관료적 전문가들이 데이터와 정보를 수집하며, 권위자의 경험과 전통 또는 종교적 권위에 기반하여 의사결정이 이루어짐
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ const DigitalTransformationPoster = () => {
           {/* 2. 정보 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">2. 전문성 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1450 - 1990, 약 500년, 인쇄술과 대중 미디어)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">2. 데이터 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1450 - 1990, 약 500년, 인쇄술과 대중 미디어)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
@@ -109,8 +109,8 @@ const DigitalTransformationPoster = () => {
                   <h4 className="font-semibold text-blue-700">의사 결정권의 변화</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
                     <li>• 대량 인쇄술과 대중 미디어 발전</li>
-                    <li>• 전문가 집단의 지식 생산 주도</li>
-                    <li>• 전문성 기반 의사결정 체계</li>
+                    <li>• 전문가들이 데이터를 기반으로 정보 생산</li>
+                    <li>• 책과 대중 미디어를 통해 정보 전달</li>
                   </ul>
                 </div>
                 <div className="border-l-4 border-green-700 pl-2">
@@ -155,12 +155,12 @@ const DigitalTransformationPoster = () => {
                   <div className="h-12 bg-green-600 rounded relative">
                     <span className="absolute inset-0 flex flex-col items-center justify-center text-xs text-white">
                       <span className="font-semibold">지혜</span>
-                      <span className="text-xs">(전문가 협의 체계)</span>
+                      <span className="text-xs">(관료제 의사결정 체계)</span>
                     </span>
                   </div>
                 </div>
                 <p className="text-xs mt-2 text-gray-600">
-                  기술이 데이터 수집을 자동화하고, 인간 전문가들이 정보 분석과 지식 생성, 의사결정을 주도하며 전문성과 경험에 기반함
+                  기술이 데이터 수집을 자동화하고, 전문가들이 정보를 생산하여 책과 대중 미디어를 통해 사람들과 의사결정권자에게 전달함
                 </p>
               </div>
             </div>
@@ -169,16 +169,16 @@ const DigitalTransformationPoster = () => {
           {/* 3. 알고리즘 기반 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">3. 알고리즘 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1990 - 2020, 약 30년, 인터넷, 빅데이터, 알고리즘)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">3. 정보 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(1990 - 2020, 약 30년, 인터넷, 빅데이터, 알고리즘)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
                 <div className="border-l-4 border-blue-700 pl-2">
                   <h4 className="font-semibold text-blue-700">의사 결정권의 변화</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 빅데이터와 클라우드 컴퓨팅</li>
-                    <li>• 머신러닝과 초기 AI 알고리즘</li>
-                    <li>• 알고리즘 기반 의사결정 확산</li>
+                    <li>• 다양한 채널에서 정보 유입</li>
+                    <li>• 사람들의 정보 선별과 지식화</li>
+                    <li>• 시민들의 의사결정 참여 확대</li>
                   </ul>
                 </div>
                 <div className="border-l-4 border-green-700 pl-2">
@@ -228,7 +228,7 @@ const DigitalTransformationPoster = () => {
                   </div>
                 </div>
                 <p className="text-xs mt-2 text-gray-600">
-                  기술이 데이터 수집과 정보 분석을 자동화하고, 인간은 알고리즘이 제시한 추천을 바탕으로 지식을 생성하고 최종 의사결정을 담당함
+                  기술이 다양한 채널을 통해 정보를 제공하고, 사람들이 정보를 선별하고 해석하여 지식을 생성하며, 이를 바탕으로 의사결정에 직접 참여함
                 </p>
               </div>
             </div>
@@ -237,16 +237,16 @@ const DigitalTransformationPoster = () => {
           {/* 4. 시너지 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">4. 가치 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2020 - 현재, 약 10년, 생성형 AI)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">4. 지식 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2020 - 현재, 약 10년, 생성형 AI)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
                 <div className="border-l-4 border-blue-700 pl-2">
                   <h4 className="font-semibold text-blue-700">의사 결정권의 변화</h4>
                   <ul className="text-xs mt-1 space-y-0.5 ml-2">
-                    <li>• 생성형 AI와 대규모 언어 모델</li>
-                    <li>• 인간-AI 협업 의사결정 체계</li>
-                    <li>• 가치 판단 중심의 인간 역할</li>
+                    <li>• AI가 정보를 지식 형태로 가공</li>
+                    <li>• 모든 사람의 전문적 지식 접근성</li>
+                    <li>• 개인 가치관 기반 의사결정 참여</li>
                   </ul>
                 </div>
                 <div className="border-l-4 border-green-700 pl-2">
@@ -296,7 +296,7 @@ const DigitalTransformationPoster = () => {
                   </div>
                 </div>
                 <p className="text-xs mt-2 text-gray-600">
-                  기술이 데이터부터 지식 생성까지 모든 과정을 자동화하고, 인간은 AI와 협력하여 최종 의사결정을 내리며 가치와 윤리적 판단에 집중함
+                  AI가 궁금증에 대응하여 정보를 지식 형태로 가공해 전달하고, 모든 사람이 전문적 지식을 갖게 되며, 자신의 가치관에 따른 지혜를 적용하여 의사결정에 참여함
                 </p>
               </div>
             </div>
@@ -305,7 +305,7 @@ const DigitalTransformationPoster = () => {
           {/* 5. 초지능 의사결정 시대 */}
           <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-gray-100 p-2 border-b-2 border-gray-200">
-              <h3 className="text-xl font-bold text-gray-800">5. 초지능 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2030 이후 예상, 범용 인공지능)</span></h3>
+              <h3 className="text-xl font-bold text-gray-800">5. 지혜 기반 의사 결정의 시대 <span className="text-sm font-normal text-gray-600">(2030 이후 예상, 범용 인공지능)</span></h3>
             </div>
             <div className="p-3">
               <div className="grid grid-cols-4 gap-3 mb-4">
