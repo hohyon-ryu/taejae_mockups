@@ -10,6 +10,7 @@ import ExplorationPage from './pages/ExplorationPage';
 import PosterPage from './pages/PosterPage'; // Import the page using relative path
 import SocialStructureMatrixPosterPage from './pages/SocialStructureMatrixPosterPage'; // Import the new poster page
 import PostersListPage from './pages/PostersListPage'; // Import the posters list page
+import TechnologyEvolutionPage from './pages/TechnologyEvolutionPage'; // Import the new interactive page
 
 // Components
 // import Poster from './components/Poster'; // Remove direct Poster import
@@ -25,6 +26,7 @@ function App() {
         <Route path="/posters" element={<PostersListPage />} /> {/* Route for posters list */}
         <Route path="/poster/digital-transformation-social-change" element={<PosterPage />} /> {/* Renamed route for first poster */}
         <Route path="/poster/social-structure-matrix" element={<SocialStructureMatrixPosterPage />} /> {/* Route for second poster */}
+        <Route path="/technology-evolution" element={<TechnologyEvolutionPage />} /> {/* New interactive page */}
       </Routes>
     </Router>
   );
