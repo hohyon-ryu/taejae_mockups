@@ -20,6 +20,13 @@ const PostersListPage: React.FC = () => {
     },
     {
       id: 3,
+      title: '디지털 시대 경제 질서',
+      description: '디지털화가 초래하는 경제 질서의 근본적 변화와 관심 경제로의 전환',
+      path: '/poster/digital-economy',
+      type: 'poster'
+    },
+    {
+      id: 4,
       title: '기술 진화와 사회 변혁 인터랙티브',
       description: '기술의 발전이 사회를 어떻게 변화시켰는지, 어떤 문제가 발생했고 어떻게 해결했는지 보여주는 인터랙티브 타임라인',
       path: '/technology-evolution',
