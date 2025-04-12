@@ -24,8 +24,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section1Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section1Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
@@ -63,8 +63,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section2Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section2Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
@@ -122,8 +122,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section4Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section4Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
@@ -173,8 +173,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section3Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section3Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
@@ -222,8 +222,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section5Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section5Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
@@ -234,33 +234,33 @@ const DigitalEconomyPoster: React.FC = () => {
           
           <div className="p-3">
             <div className="grid grid-cols-3 gap-2">
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">디지털 건강 위기:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">디지털 건강 위기:</h3>
                 <p className="text-base text-gray-700">관심 경쟁과 알림 폭격으로 수면장애, 주의력 결핍 증가</p>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">사회적 단절 심화:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">사회적 단절 심화:</h3>
                 <p className="text-base text-gray-700">온라인 집단으로 이동, 사회적 유대 약화</p>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">민주주의 기능 약화:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">민주주의 기능 약화:</h3>
                 <p className="text-base text-gray-700">선정적 정치 담론 확산, 사회적 합의 능력 저하</p>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">경제적 안전망 붕괴:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">경제적 안전망 붕괴:</h3>
                 <p className="text-base text-gray-700">노동 중심 설계된 복지 시스템의 부적합성</p>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">인지 주권 상실:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">인지 주권 상실:</h3>
                 <p className="text-base text-gray-700">알고리즘 조작으로 자율적 의사결정 침해</p>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400 flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">기술 불평등 심화:</h3>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">기술 불평등 심화:</h3>
                 <p className="text-base text-gray-700">디지털 리터러시에 따른 새로운 불평등 발생</p>
               </div>
             </div>
@@ -271,8 +271,8 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/80 via-gray-500/70 to-gray-500/60">
-                <img src={section1Image} alt="" className="w-full h-full object-cover opacity-60 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section1Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
