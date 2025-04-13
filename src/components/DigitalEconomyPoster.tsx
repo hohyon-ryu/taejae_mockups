@@ -37,7 +37,7 @@ const DigitalEconomyPoster: React.FC = () => {
           <div className="p-3">
             <div className="grid grid-cols-2 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">현재 핵심 희소 가치: 노동</h3>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
                 <ul className="text-base space-y-1 text-gray-700">
                   <li>• 기업 가치는 인적 자본에 의해 창출</li>
                   <li>• 사회 안전망이 노동 중심으로 설계</li>
@@ -47,7 +47,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">미래 핵심 희소 가치: 관심</h3>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심</h3>
                 <ul className="text-base space-y-1 text-gray-700">
                   <li>• 정보와 콘텐츠 폭증으로 '관심'이 희소 자원화</li>
                   <li>• 소셜 미디어, 엔터테인먼트 등 관심 기반 산업 성장</li>
