@@ -69,16 +69,29 @@ const PostersListPage: React.FC = () => {
                 )}
                 <h2 className="text-xl font-bold text-gray-900 mb-2">{poster.title}</h2>
                 <p className="text-gray-600 mb-4">{poster.description}</p>
-                <Link 
-                  to={poster.path} 
-                  className={`inline-block px-4 py-2 rounded transition-colors duration-300 ${
-                    poster.type === 'interactive' 
-                      ? 'bg-purple-600 text-white hover:bg-purple-700' 
-                      : 'bg-blue-600 text-white hover:bg-blue-700'
-                  }`}
-                >
-                  {poster.type === 'interactive' ? '인터랙티브 보기' : '포스터 보기'}
-                </Link>
+                <div>
+                  <Link 
+                    to={poster.path} 
+                    className={`inline-block px-4 py-2 rounded transition-colors duration-300 ${
+                      poster.type === 'interactive' 
+                        ? 'bg-purple-600 text-white hover:bg-purple-700' 
+                        : 'bg-blue-600 text-white hover:bg-blue-700'
+                    }`}
+                  >
+                    {poster.type === 'interactive' ? '인터랙티브 보기' : '포스터 보기'}
+                  </Link>
+                  
+                  {poster.id === 3 && (
+                    <div className="mt-2">
+                      <Link 
+                        to="/poster/digital-economy/250414" 
+                        className="text-xs text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                      >
+                        250414 경제 질서 포함
+                      </Link>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}
