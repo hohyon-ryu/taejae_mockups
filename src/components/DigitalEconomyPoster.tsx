@@ -131,8 +131,8 @@ const DigitalEconomyPoster: React.FC = () => {
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">기업 생태계</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 역량 공유 네트워크</span>로 플랫폼-중소기업 관계 재편. <span className="font-medium text-green-700">행정·정책 기능의 도시 분산</span>이 생태계 중심 경쟁 촉진.</td>
-                    <td className="py-2 px-2">디지털 플랫폼 경제에서 공정 경쟁을 위한 데이터 접근성과 알고리즘 투명성을 어떻게 제도화할 것인가?</td>
+                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 전환을 통한 기업 생산성 향상</span>과 <span className="font-medium text-green-700">플랫폼 기업의 권력화</span>로 기업 간 역학 변화. <span className="font-medium text-green-700">기업-정부-고객 관계의 재정립</span>이 새로운 기업 생태계 형성.</td>
+                    <td className="py-2 px-2">디지털 플랫폼의 권력 집중을 견제하면서 기업의 혁신을 촉진하는 균형적 생태계를 어떻게 구축할 것인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">국제 무역</td>
