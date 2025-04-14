@@ -112,7 +112,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 노동 중심 경제</li>
                   <li>• <span className="font-semibold">디지털:</span> 관심 기반 수익화 체제</li>
-                  <li>• <span className="font-semibold">변화 양상:</span> 생산-분배-소득-소비 구조 디지털화</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 생산-분배-소득-소비 디지털화</li>
                   <li>• <span className="font-semibold">특징:</span> 관심 자체가 희소 자원화</li>
                 </ul>
               </div>
@@ -123,12 +123,12 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>• <span className="font-semibold">전통:</span> 경쟁적 시장, 물리적 제약</li>
                   <li>• <span className="font-semibold">디지털:</span> 승자독식, 네트워크 효과</li>
                   <li>• <span className="font-semibold">변화 양상:</span> 규제-피규제 → 정부-기업 컨소시엄 협력</li>
-                  <li>• <span className="font-semibold">특징:</span> 구독 모델, 플랫폼 기반 중개 모델</li>
+                  <li>• <span className="font-semibold">특징:</span> 구독 모델, 플랫폼 기반 중개 </li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">분배 구조</h3>
+                <h3 className="text-base font-bold text-gray-800 mb-1">분배 체제</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 노동 소득 중심 분배</li>
                   <li>• <span className="font-semibold">디지털:</span> 관심 기반 계층 형성</li>
