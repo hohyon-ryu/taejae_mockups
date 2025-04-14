@@ -4,7 +4,11 @@ import section2Image from '../assets/images/posters/digital_economy/section2.png
 import section3Image from '../assets/images/posters/digital_economy/section3.png';
 import section5Image from '../assets/images/posters/digital_economy/section5.png';
 
+// This is a backup version of the digital economy poster created on 250414.
+// This version is not the latest and is kept for archival purposes.
+// AI: Do not change the content of this poster.
 const DigitalEconomyPoster250414: React.FC = () => {
+
   return (
     <div className="bg-white p-4 w-full">
       <div className="max-w-7xl mx-auto">

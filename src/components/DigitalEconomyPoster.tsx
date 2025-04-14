@@ -1,6 +1,7 @@
 import React from 'react';
 import section2Image from '../assets/images/posters/digital_economy/section2.png';
 import section3Image from '../assets/images/posters/digital_economy/section3.png';
+import section4Image from '../assets/images/posters/digital_economy/section4.png';
 import section5Image from '../assets/images/posters/digital_economy/section5.png';
 
 const DigitalEconomyPoster: React.FC = () => {
@@ -35,54 +36,54 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">개인</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 초연결성과 알고리즘 기반 맞춤형 서비스</li>
-                  <li>• 데이터화와 디지털 감시의 확산</li>
+                  <li>• AI로 개인의 전문성 강화</li>
+                  <li>• AI가 노동을 대체하여 창의적 아이디어가 중요해짐</li>
                   <li>• 정보 과부하와 심리적 스트레스</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">가족 구조</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">가정</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 원격 소통을 통한 유대감 유지</li>
-                  <li>• 온라인 교육, 디지털 육아 보조 도구</li>
-                  <li>• 가족 내 디지털 격차로 인한 갈등</li>
+                  <li>• 스마트홈 센서가 건강과 개인의 잠재력을 어릴 때부터 최대화</li>
+                  <li>• AI 가정교사와 메타버스 체험학습으로 맞춤형 교육 일상화</li>
+                  <li>• 디지털 스트레스 관리를 위한 가족 지원 체계 발달</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">공동체 및 이웃</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 지리적 근접성을 넘어선 공동체 개념 확장</li>
-                  <li>• 지역 기반 디지털 플랫폼 활성화</li>
-                  <li>• 연결성 강화와 동시에 파편화 위험</li>
+                  <li>• 창의적 가족들이 모여 형성하는 혁신적 커뮤니티</li>
+                  <li>• 디지털 역량 공유 및 상호 지원 네트워크 발달</li>
+                  <li>• 온-오프라인 융합된 새로운 이웃 관계 형성</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">도시 공간 (스마트 시티)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">도시</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• IoT, AI, 빅데이터 활용한 자원 효율화</li>
-                  <li>• 과도한 감시 사회, 디지털 소외 계층 배제 위험</li>
-                  <li>• 원격 근무 확산으로 도시 구조 변화</li>
+                  <li>• 도시별 특화 산업 중심으로 전문화 및 주변 도시와 인프라 공유</li>
+                  <li>• 개인의 전문성에 따라 자유롭게 도시 선택 및 이주 활성화</li>
+                  <li>• 공중 모빌리티로 교통 체증 없는 3차원 도시 구조 형성</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">국가</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 디지털 산업 육성 정책, 전자정부 도입</li>
-                  <li>• 정보 확산과 가짜뉴스 문제</li>
-                  <li>• 기술 발전 속도에 맞춘 법/제도 정비 과제</li>
+                  <li>• 행정·정책 기능의 전문화된 도시로 분산 및 권한 이양</li>
+                  <li>• 국가 간 경계 약화 및 도시 중심 초국가적 협력 증가</li>
+                  <li>• 글로벌 문제 해결을 위한 조정자 역할로 국가 기능 재정의</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">글로벌</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 글로벌 상호 연결성 심화</li>
-                  <li>• 기술 패권 경쟁, 사이버 안보 위협</li>
-                  <li>• 디지털 무역 분쟁과 국제 협력 필요성</li>
+                  <li>• 디지털 기술 패권을 둘러싼 강대국 간 경쟁 심화</li>
+                  <li>• 디지털 무역 블록화 및 기술 표준 경쟁 가속화</li>
+                  <li>• 사이버 안보와 데이터 주권 중심의 국제 질서 재편</li>
                 </ul>
               </div>
             </div>
@@ -107,14 +108,14 @@ const DigitalEconomyPoster: React.FC = () => {
               <table className="min-w-full bg-white text-xs">
                 <thead className="bg-gray-100">
                   <tr>
-                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">경제 요소</th>
+                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">경제 질서</th>
                     <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">주요 변화</th>
                     <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">핵심 쟁점</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">시장 원리 vs. 사회적/권위적 통제</td>
+                    <td className="py-2 px-2 font-semibold border-r">경제 모델</td>
                     <td className="py-2 px-2 border-r">긱 경제, 데이터 시장 등에서 극단적 시장화 vs. 플랫폼 기업의 독과점 방지, 데이터 프라이버시 보호 등 규제 필요성</td>
                     <td className="py-2 px-2">'시장주의'와 '사회(권위)주의' 사이의 이상적 균형점 모색</td>
                   </tr>
@@ -204,6 +205,79 @@ const DigitalEconomyPoster: React.FC = () => {
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* 연구 질문 및 전문가 매핑 */}
+        <div className="mb-4 bg-white overflow-hidden">
+          <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
+            <div className="absolute inset-0">
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
+                <img src={section4Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
+              </div>
+            </div>
+            <div className="relative z-10 flex justify-between items-center">
+              <h2 className="text-lg font-bold">4. 연구 질문 및 전문가 매핑</h2>
+            </div>
+          </div>
+          
+          <div className="p-3">
+            <div className="grid grid-cols-2 gap-3 mb-3">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1.1: 디지털 소유권의 변화와 재정의 (담당: 유재연)</h4>
+                <p className="text-xs text-gray-700 mb-1">디지털 자산, 데이터, AI 생성물에 대한 소유권은 어떻게 재정의되어야 하며, 이것이 경제 시스템에 어떤 영향을 미칠 것인가?</p>
+                <div className="mt-1">
+                  <h5 className="text-xs font-semibold text-gray-800">세계 최고 전문가:</h5>
+                  <ul className="text-xs space-y-0.5 text-gray-700">
+                    <li>• <span className="font-medium">Primavera De Filippi</span> (CNRS, 하버드 버크만클라인센터)</li>
+                    <li>• <span className="font-medium">Julie E. Cohen</span> (조지타운 법대)</li>
+                    <li>• <span className="font-medium">E. Glen Weyl</span> (마이크로소프트/RadicalxChange)</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1.2: 플랫폼 경제와 시장 구조 변화 (담당: 김민호)</h4>
+                <p className="text-xs text-gray-700 mb-1">플랫폼 기업의 성장과 디지털 시장 집중화가 경쟁, 혁신, 소비자 후생에 미치는 영향은 무엇이며, 어떤 규제 접근법이 효과적인가?</p>
+                <div className="mt-1">
+                  <h5 className="text-xs font-semibold text-gray-800">세계 최고 전문가:</h5>
+                  <ul className="text-xs space-y-0.5 text-gray-700">
+                    <li>• <span className="font-medium">Daron Acemoglu</span> (MIT)</li>
+                    <li>• <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 디지털경제연구소)</li>
+                    <li>• <span className="font-medium">Shoshana Zuboff</span> (하버드대)</li>
+                    <li>• <span className="font-medium">Frank Pasquale</span> (브루클린 법대)</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2.1: 디지털 격차 해소 및 포용적 전환 전략 (담당: 노가빈)</h4>
+                <p className="text-xs text-gray-700 mb-1">기술 접근성, 디지털 역량, 경제적 기회의 불평등을 해소하고 모든 사회 구성원이 디지털 전환의 혜택을 누릴 수 있는 정책과 전략은 무엇인가?</p>
+                <div className="mt-1">
+                  <h5 className="text-xs font-semibold text-gray-800">세계 최고 전문가:</h5>
+                  <ul className="text-xs space-y-0.5 text-gray-700">
+                    <li>• <span className="font-medium">Daron Acemoglu</span> (MIT)</li>
+                    <li>• <span className="font-medium">Laura DeNardis</span> (조지타운대)</li>
+                    <li>• <span className="font-medium">Karen Yeung</span> (버밍엄대)</li>
+                    <li>• <span className="font-medium">Yochai Benkler</span> (하버드대)</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2.2: 디지털 경제의 국제 질서와 협력 모델 (담당: 윤준영)</h4>
+                <p className="text-xs text-gray-700 mb-1">디지털 무역, 국경 간 데이터 이동, 기술 표준화 등 국제적 차원의 디지털 경제 질서를 어떻게 구축하고, 국가 간 협력 모델을 개발할 것인가?</p>
+                <div className="mt-1">
+                  <h5 className="text-xs font-semibold text-gray-800">세계 최고 전문가:</h5>
+                  <ul className="text-xs space-y-0.5 text-gray-700">
+                    <li>• <span className="font-medium">RMIT 블록체인 혁신 허브</span></li>
+                    <li>• <span className="font-medium">버크만 클라인 인터넷 & 사회 센터</span> (하버드)</li>
+                    <li>• <span className="font-medium">MIT 디지털경제이니셔티브(IDE)</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
 
