@@ -10,11 +10,11 @@ const DigitalEconomyPoster: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* 헤더 */}
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대 경제 질서</h1>
+          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대의 경제 질서와 사회 변형</h1>
           <p className="text-xl text-gray-700 font-semibold mb-3">태재미래전략연구원 디지털 전환과 사회변혁 팀</p>
           <div className="bg-gray-100 p-3 rounded-lg inline-block shadow-md">
             <p className="text-lg text-gray-800 italic font-medium">
-              "디지털화가 초래하는 경제 질서의 근본적 변화와 공동체 재구성, 그리고 사회적 문제점들의 선제적 해결 방안은?"
+              "디지털화가 초래하는 근본적 변화와 사회적 문제점들의 선제적 해결 방안은?"
             </p>
           </div>
         </div>
@@ -36,33 +36,35 @@ const DigitalEconomyPoster: React.FC = () => {
           <div className="p-3">
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
+                <h3 className="text-base font-bold text-gray-800 mb-1">산업화 시대</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• <span className="font-semibold">아담 스미스:</span> 노동이 모든 가치의 원천</li>
-                  <li>• <span className="font-semibold">마르크스:</span> 노동 가치설과 잉여가치 이론</li>
-                  <li>• 사회 안전망이 노동 중심으로 설계</li>
-                  <li>• 자아 실현도 '커리어'라는 노동으로부터 찾음</li>
+                  <li>• <span className="font-semibold">핵심 가치:</span> 노동이 모든 가치의 원천</li>
+                  <li>• <span className="font-semibold">경제 이론:</span> 아담 스미스의 노동 가치설, 마르크스의 노동력 착취론</li>
+                  <li>• <span className="font-semibold">시장 원리:</span> 케인즈의 시장 실패와 정부 개입 이론</li>
+                  <li>• <span className="font-semibold">경제 구조:</span> 노동 중심 사회안전망 설계</li>
+                  <li>• <span className="font-semibold">사회적 가치:</span> '커리어'라는 노동을 통한 정체성 확립</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">경제학적 희소 가치의 변천</h3>
+                <h3 className="text-base font-bold text-gray-800 mb-1">정보화 시대</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• <span className="font-semibold">슘페터:</span> 혁신이 경제 발전의 핵심 동력</li>
-                  <li>• <span className="font-semibold">하이예크:</span> 분산된 지식이 희소 자원</li>
-                  <li>• <span className="font-semibold">드러커:</span> 지식 노동자와 지식 자본</li>
-                  <li>• <span className="font-semibold">현대:</span> 데이터와 알고리즘의 가치 부상</li>
+                  <li>• <span className="font-semibold">핵심 가치:</span> 지식과 혁신이 경제 발전의 동력</li>
+                  <li>• <span className="font-semibold">경제 이론:</span> 슘페터의 혁신론, 하이에크의 분산된 지식</li>
+                  <li>• <span className="font-semibold">시장 원리:</span> 프리드먼의 자유 시장과 통화 정책</li>
+                  <li>• <span className="font-semibold">경제 구조:</span> 지식 기반 경제로의 전환, 무형 자산 중요성 증가</li>
+                  <li>• <span className="font-semibold">사회적 가치:</span> 지식과 전문성을 통한 사회적 인정</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
+                <h3 className="text-base font-bold text-gray-800 mb-1">디지털 시대</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 노동의 희소성 감소</li>
-                  <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구</li>
-                  <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산</li>
-                  <li>• <span className="font-semibold">데이터:</span> 빅데이터 자체보다 처리 능력</li>
-                  <li>• <span className="font-semibold">관심:</span> 정보 과잉 시대 부와 직결</li>
+                  <li>• <span className="font-semibold">핵심 가치:</span> 관심(Attention)이 희소 자원화</li>
+                  <li>• <span className="font-semibold">경제 이론:</span> 브린울프스의 데이터와 알고리즘 가치론</li>
+                  <li>• <span className="font-semibold">시장 원리:</span> 관심 기반 수익화 모델의 확산</li>
+                  <li>• <span className="font-semibold">경제 구조:</span> 구글, 메타, 유튜브 등 플랫폼 경제 중심</li>
+                  <li>• <span className="font-semibold">사회적 가치:</span> 관심과 영향력을 통한 사회적 가치 창출</li>
                 </ul>
               </div>
             </div>
@@ -89,9 +91,9 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h3 className="text-base font-bold text-gray-800 mb-1">경제 주체</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 제조업체, 서비스 기업, 소비자</li>
-                  <li>• <span className="font-semibold">디지털:</span> 플랫폼, 크리에이터, 프로슈머</li>
-                  <li>• <span className="font-semibold">고용:</span> 정규직 → 프리랜서</li>
-                  <li>• <span className="font-semibold">역할:</span> 생산자/소비자 경계 모호화</li>
+                  <li>• <span className="font-semibold">디지털:</span> 플랫폼(관심 거래), 프로슈머</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 정규직 → 자유 계약자</li>
+                  <li>• <span className="font-semibold">특징:</span> 생산자/소비자 경계 모호화</li>
                 </ul>
               </div>
               
@@ -100,8 +102,8 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 물리적 상품, 서비스, 노동력</li>
                   <li>• <span className="font-semibold">디지털:</span> 데이터, 알고리즘, 관심, 경험</li>
-                  <li>• <span className="font-semibold">소유권:</span> 사용/수익/처분/통제권 분리</li>
-                  <li>• <span className="font-semibold">가치:</span> 소유 가치 → 접근 및 경험 가치</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 소유 가치 → 접근 및 경험 가치</li>
+                  <li>• <span className="font-semibold">특징:</span> 사용/수익/처분/통제권 분리</li>
                 </ul>
               </div>
               
@@ -109,9 +111,9 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h3 className="text-base font-bold text-gray-800 mb-1">경제 체제</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 노동 중심 경제</li>
-                  <li>• <span className="font-semibold">디지털:</span> 관심 기반 수익화</li>
-                  <li>• <span className="font-semibold">구조:</span> 가치 사슬 디지털화, 자동화</li>
-                  <li>• <span className="font-semibold">자원:</span> 관심이 희소 자원화</li>
+                  <li>• <span className="font-semibold">디지털:</span> 관심 기반 수익화 체제</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 생산-분배-소득-소비 구조 디지털화</li>
+                  <li>• <span className="font-semibold">특징:</span> 관심 자체가 희소 자원화</li>
                 </ul>
               </div>
               
@@ -120,8 +122,8 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 경쟁적 시장, 물리적 제약</li>
                   <li>• <span className="font-semibold">디지털:</span> 승자독식, 네트워크 효과</li>
-                  <li>• <span className="font-semibold">관계:</span> 규제-피규제 → 콘소시엄 협력</li>
-                  <li>• <span className="font-semibold">모델:</span> 구독 모델, 플랫폼 기반 중개</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 규제-피규제 → 정부-기업 컨소시엄 협력</li>
+                  <li>• <span className="font-semibold">특징:</span> 구독 모델, 플랫폼 기반 중개 모델</li>
                 </ul>
               </div>
               
@@ -129,9 +131,9 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h3 className="text-base font-bold text-gray-800 mb-1">분배 구조</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 노동 소득 중심 분배</li>
-                  <li>• <span className="font-semibold">디지털:</span> 관심 자본가 계층 형성</li>
-                  <li>• <span className="font-semibold">결과:</span> 소득 양극화 및 중산층 약화</li>
-                  <li>• <span className="font-semibold">대응:</span> 디지털 부의 재분배 필요성</li>
+                  <li>• <span className="font-semibold">디지털:</span> 관심 기반 계층 형성</li>
+                  <li>• <span className="font-semibold">변화 양상:</span> 소득 양극화 및 중산층 약화</li>
+                  <li>• <span className="font-semibold">특징:</span> 디지털 부의 재분배 필요성</li>
                 </ul>
               </div>
             </div>
@@ -158,7 +160,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h3 className="text-base font-bold text-gray-800 mb-1">개인과 정체성</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• 자아의 상품화, '좋아요'로 측정되는 정체성</li>
-                  <li>• 디지털 기술을 통한 개인 맞춤형 생활환경 구현</li>
+                  <li>• 개인의 전문성 강화</li>
                   <li>• AI 기반 개인화 서비스로 선호와 정체성 표현</li>
                 </ul>
               </div>
@@ -166,9 +168,9 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">가족 공동체</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 가족 시간과 디지털 플랫폼의 경쟁 구도 변화</li>
-                  <li>• 자녀 육성과 가족 공동체 기쁨을 위한 스마트홈</li>
-                  <li>• 가족 구성원의 커리어 성공을 돕는 디지털 환경</li>
+                  <li>• 가족 소통 단절</li>
+                  <li>• 자녀 육성과 가족 공동체 행복을 위한 스마트홈</li>
+                  <li>• 가족이 생산 공간이 되는 환경 변화</li>
                 </ul>
               </div>
               
@@ -184,16 +186,16 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">도시 공간</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• City OS를 통한 도시 인프라의 통합 관리</li>
-                  <li>• 시민 참여형 거버넌스로 의사결정 민주화</li>
-                  <li>• 빅데이터 기반 선제적 도시 문제 해결</li>
+                  <li>• 디지털 인프라를 통한 도시 공간의 디지털화</li>
+                  <li>• 도시 간 경쟁 심화</li>
+                  <li>• 공공성 재구성</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">국가 차원</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 플랫폼-국가 연합으로 기술 패권 경쟁</li>
+                  <li>• 기업-국가 연합으로 기술 패권 경쟁</li>
                   <li>• 디지털 기술 기반 국가 인프라 혁신</li>
                   <li>• 도시와 글로벌의 강화로 국가 정체성 재정의</li>
                 </ul>
@@ -228,33 +230,27 @@ const DigitalEconomyPoster: React.FC = () => {
           <div className="p-3">
             <div className="grid grid-cols-3 gap-2">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">디지털 건강 위기:</h3>
-                <p className="text-sm text-gray-700">관심 경쟁과 알림 폭격으로 수면장애, 주의력 결핍 증가</p>
+                <h3 className="text-base font-bold text-gray-800 mb-1">개인 측면:</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• <span className="font-semibold">인지 과부하:</span> 관심 경쟁과 알림 폭격으로 번아웃</li>
+                  <li>• <span className="font-semibold">자율성 침해:</span> 자율적 의사결정이 침해받는 상황</li>
+                </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">사회적 단절 심화:</h3>
-                <p className="text-sm text-gray-700">온라인 집단으로 이동, 사회적 유대 약화</p>
+                <h3 className="text-base font-bold text-gray-800 mb-1">사회 측면:</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• <span className="font-semibold">사회적 단절 심화:</span> 온라인 집단으로 이동</li>
+                  <li>• <span className="font-semibold">새로운 계급 격차:</span> 기술 불평등에 따른 격차</li>
+                </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">경제적 안전망 붕괴:</h3>
-                <p className="text-sm text-gray-700">노동 중심 설계된 복지 시스템의 부적합성</p>
-              </div>
-              
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">인지 주권 상실:</h3>
-                <p className="text-sm text-gray-700">알고리즘 조작으로 자율적 의사결정 침해</p>
-              </div>
-              
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">기술 불평등 심화:</h3>
-                <p className="text-sm text-gray-700">디지털 리터러시에 따른 새로운 불평등 발생</p>
-              </div>
-
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">패권 경쟁 심화:</h3>
-                <p className="text-sm text-gray-700">디지털 철의 장막으로 국제 국가-기업 연합 간의 갈등</p>
+                <h3 className="text-base font-bold text-gray-800 mb-1">국가 측면:</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• <span className="font-semibold">경제적 안전망 붕괴:</span> 노동 중심 복지 시스템 부적합</li>
+                  <li>• <span className="font-semibold">패권 경쟁 심화:</span> 디지털 철의 장막으로 국가-기업 연합 간 갈등</li>
+                </ul>
               </div>
             </div>
           </div>
