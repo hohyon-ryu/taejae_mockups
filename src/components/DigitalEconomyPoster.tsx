@@ -10,7 +10,7 @@ const DigitalEconomyPoster: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* 헤더 */}
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">연결점 탐색: 디지털 시대의 사회 변화와 진화하는 경제 질서</h1>
+          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대의 경제 질서</h1>
           <div className="bg-gray-100 p-3 rounded-lg inline-block">
             <p className="text-lg text-gray-800 italic font-medium">
               "디지털 전환이 가속화됨에 따라 사회 구조는 어떻게 변화하며, 이러한 변화는 기존 경제 질서에 어떤 영향을 미치는가?"
@@ -109,14 +109,14 @@ const DigitalEconomyPoster: React.FC = () => {
                 <thead className="bg-gray-100">
                   <tr>
                     <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">경제 질서</th>
-                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">주요 변화와 사회적 연결점</th>
+                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">주요 변화</th>
                     <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">연구 질문</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">경제 모델</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">개인 전문성 강화</span>로 긱 경제 확산, <span className="font-medium text-green-700">글로벌 기술 패권 경쟁</span>으로 데이터 시장화 진행. 플랫폼 독과점 방지와 데이터 프라이버시 보호 규제 필요성 증가.</td>
+                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 플랫폼 중심</span>으로 경제 권력 재편, <span className="font-medium text-green-700">데이터 기반 가치 창출</span>로 시장 원리 변화. 전통적 규제 체계의 한계와 새로운 거버넌스 모델 필요성 증가.</td>
                     <td className="py-2 px-2">디지털 경제에서 '시장주의'와 '사회(권위)주의' 사이의 이상적 균형점은 어디인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
@@ -172,9 +172,8 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>• 플랫폼 독과점 심화</li>
                   <li>• 노동 시장 양극화 및 불안정성 증대</li>
                   <li>• 데이터 거버넌스 공백</li>
-                  <li>• 기존 사회 계약의 약화</li>
-                  <li>• 사이버 안보 위협 및 정보 신뢰성 저하</li>
-                  <li>• 규제 지체 (Regulatory Lag)</li>
+                  <li>• 노동-자본-국가 간 기존 합의 붕괴</li>
+                  <li>• 규제 지체와 사이버 안보 위협</li>
                 </ul>
               </div>
               
@@ -219,51 +218,131 @@ const DigitalEconomyPoster: React.FC = () => {
           <div className="p-3">
             <div className="grid grid-cols-2 gap-3 mb-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1.1: 디지털 소유권의 변화와 재정의 (담당: 유재연)</h4>
-                <p className="text-xs text-gray-700 mb-1">디지털 자산, 데이터, AI 생성물에 대한 소유권은 어떻게 재정의되어야 하며, 이것이 경제 시스템에 어떤 영향을 미칠 것인가?</p>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1: 디지털 자산의 소유권은 어떻게 달라지는가? (담당: 유재연)</h4>
                 <div className="mt-1">
-                  <ul className="text-xs space-y-0.5 text-gray-700">
-                    <li>• <span className="font-medium">Primavera De Filippi</span> (CNRS, 하버드 버크만클라인센터)</li>
-                    <li>• <span className="font-medium">Julie E. Cohen</span> (조지타운 법대)</li>
-                    <li>• <span className="font-medium">E. Glen Weyl</span> (마이크로소프트/RadicalxChange)</li>
+                  <ul className="text-xs space-y-1 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Primavera De Filippi</span> (CNRS, 하버드 버크만클라인센터) - 
+                        <span className="text-indigo-600 italic"> 블록체인 기술과 법적 거버넌스 연구, 분산형 디지털 소유권 모델 개발</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Julie E. Cohen</span> (조지타운 법대) - 
+                        <span className="text-indigo-600 italic"> 디지털 시대 지적재산권 재정의, 데이터 소유권과 프라이버시 법제화 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">E. Glen Weyl</span> (마이크로소프트/RadicalxChange) - 
+                        <span className="text-indigo-600 italic"> 데이터 노동 보상 모델, 디지털 공공재 설계, 협력적 소유권 메커니즘 연구</span>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1.2: 플랫폼 경제와 시장 구조 변화 (담당: 김민호)</h4>
-                <p className="text-xs text-gray-700 mb-1">플랫폼 기업의 성장과 디지털 시장 집중화가 경쟁, 혁신, 소비자 후생에 미치는 영향은 무엇이며, 어떤 규제 접근법이 효과적인가?</p>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2: 시장주의와 사회주의 사이의 균형점은 어디인가? (담당: 김민호)</h4>
                 <div className="mt-1">
-                  <ul className="text-xs space-y-0.5 text-gray-700">
-                    <li>• <span className="font-medium">Daron Acemoglu</span> (MIT)</li>
-                    <li>• <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 디지털경제연구소)</li>
-                    <li>• <span className="font-medium">Shoshana Zuboff</span> (하버드대)</li>
-                    <li>• <span className="font-medium">Frank Pasquale</span> (브루클린 법대)</li>
+                  <ul className="text-xs space-y-1 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Daron Acemoglu</span> (MIT) - 
+                        <span className="text-indigo-600 italic"> 기술 변화와 노동 시장 영향, 디지털 플랫폼 경제의 불평등 효과 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 디지털경제연구소) - 
+                        <span className="text-indigo-600 italic"> 디지털 경제 생산성 측정, AI와 인간 협력 모델, 플랫폼 비즈니스 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Shoshana Zuboff</span> (하버드대) - 
+                        <span className="text-indigo-600 italic"> 감시 자본주의 분석, 디지털 플랫폼의 데이터 추출 및 행동 예측 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Frank Pasquale</span> (브루클린 법대) - 
+                        <span className="text-indigo-600 italic"> 알고리즘 투명성, 디지털 플랫폼 규제, 인공지능 거버넌스 연구</span>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2.1: 디지털 격차 해소 및 포용적 전환 전략 (담당: 노가빈)</h4>
-                <p className="text-xs text-gray-700 mb-1">기술 접근성, 디지털 역량, 경제적 기회의 불평등을 해소하고 모든 사회 구성원이 디지털 전환의 혜택을 누릴 수 있는 정책과 전략은 무엇인가?</p>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ3: 인간 중심적 일자리 생태계를 어떻게 구축할 것인가? (담당: 노가빈)</h4>
                 <div className="mt-1">
-                  <ul className="text-xs space-y-0.5 text-gray-700">
-                    <li>• <span className="font-medium">Daron Acemoglu</span> (MIT)</li>
-                    <li>• <span className="font-medium">Laura DeNardis</span> (조지타운대)</li>
-                    <li>• <span className="font-medium">Karen Yeung</span> (버밍엄대)</li>
-                    <li>• <span className="font-medium">Yochai Benkler</span> (하버드대)</li>
+                  <ul className="text-xs space-y-1 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">David Autor</span> (MIT) - 
+                        <span className="text-indigo-600 italic"> 기술 변화와 노동 시장 영향, 미래 일자리 구조 변화 예측 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Juliet Schor</span> (보스턴대) - 
+                        <span className="text-indigo-600 italic"> 긱 경제와 플랫폼 노동, 대안적 노동 모델, 공유 경제 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Carl Benedikt Frey</span> (옥스포드대) - 
+                        <span className="text-indigo-600 italic"> 자동화와 일자리 미래, 기술 변화에 따른 노동 시장 전환 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Jeremias Adams-Prassl</span> (옥스포드대) - 
+                        <span className="text-indigo-600 italic"> 디지털 노동 플랫폼 규제, 미래 노동법, 알고리즘 관리 연구</span>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2.2: 디지털 경제의 국제 질서와 협력 모델 (담당: 윤준영)</h4>
-                <p className="text-xs text-gray-700 mb-1">디지털 무역, 국경 간 데이터 이동, 기술 표준화 등 국제적 차원의 디지털 경제 질서를 어떻게 구축하고, 국가 간 협력 모델을 개발할 것인가?</p>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ4: 국제적 디지털 경제 질서를 어떻게 구축할 것인가? (담당: 윤준영)</h4>
                 <div className="mt-1">
-                  <ul className="text-xs space-y-0.5 text-gray-700">
-                    <li>• <span className="font-medium">RMIT 블록체인 혁신 허브</span></li>
-                    <li>• <span className="font-medium">버크만 클라인 인터넷 & 사회 센터</span> (하버드)</li>
-                    <li>• <span className="font-medium">MIT 디지털경제이니셔티브(IDE)</span></li>
+                  <ul className="text-xs space-y-1 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">RMIT 블록체인 혁신 허브</span> - 
+                        <span className="text-indigo-600 italic"> 국제 디지털 무역 표준화, 블록체인 기반 국가 간 데이터 이동 프레임워크 개발</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">버크만 클라인 인터넷 & 사회 센터</span> (하버드) - 
+                        <span className="text-indigo-600 italic"> 글로벌 디지털 거버넌스, 국제 사이버법, 디지털 인권 협력 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">MIT 디지털경제이니셔티브(IDE)</span> - 
+                        <span className="text-indigo-600 italic"> 국제 디지털 경제 측정 표준화, 글로벌 플랫폼 규제 협력 모델 개발</span>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
