@@ -12,7 +12,7 @@ const DigitalEconomyPoster: React.FC = () => {
         <div className="text-center mb-6">
           <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대의 경제 질서</h1>
           <div className="bg-gray-100 p-3 rounded-lg inline-block">
-            <p className="text-lg text-gray-800 italic font-medium">
+            <p className="text-base text-gray-800 italic font-medium">
               "디지털 전환이 가속화됨에 따라 사회 구조는 어떻게 변화하며, 이러한 변화는 기존 경제 질서에 어떤 영향을 미치는가?"
             </p>
           </div>
@@ -131,7 +131,7 @@ const DigitalEconomyPoster: React.FC = () => {
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">기업 생태계</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 전환을 통한 기업 생산성 향상</span>과 <span className="font-medium text-green-700">플랫폼 기업의 권력화</span>로 기업 간 역학 변화. <span className="font-medium text-green-700">기업-정부-고객 관계의 재정립</span>이 새로운 기업 생태계 형성.</td>
+                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 전환을 통한 기업 생산성 향상</span>과 <span className="font-medium text-green-700">플랫폼 기업의 권력화</span>로 기업 간 역학 변화. <span className="font-medium text-green-700">기업-정부-고객 관계의 재정립</span>으로 새로운 기업 생태계 형성.</td>
                     <td className="py-2 px-2">디지털 플랫폼의 권력 집중을 견제하면서 기업의 혁신을 촉진하는 균형적 생태계를 어떻게 구축할 것인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
