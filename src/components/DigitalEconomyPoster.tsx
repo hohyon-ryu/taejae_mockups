@@ -28,7 +28,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">1. 디지털 시대 경제의 근본적 변화</h2>
+              <h2 className="text-lg font-bold">1. 디지털 시대 경제의 근본적 변화</h2>
               <p className="text-base italic">"Attention is all that matters"</p>
             </div>
           </div>
@@ -36,8 +36,8 @@ const DigitalEconomyPoster: React.FC = () => {
           <div className="p-3">
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
-                <ul className="text-base space-y-1 text-gray-700">
+                <h3 className="text-base font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
+                <ul className="text-base space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">아담 스미스:</span> 노동이 모든 가치의 원천</li>
                   <li>• <span className="font-semibold">마르크스:</span> 노동 가치설과 잉여가치 이론</li>
                   <li>• 사회 안전망이 노동 중심으로 설계</li>
@@ -46,8 +46,8 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">경제학적 희소 가치의 변천</h3>
-                <ul className="text-base space-y-1 text-gray-700">
+                <h3 className="text-base font-bold text-gray-800 mb-1">경제학적 희소 가치의 변천</h3>
+                <ul className="text-base space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">슘페터:</span> 혁신이 경제 발전의 핵심 동력</li>
                   <li>• <span className="font-semibold">하이예크:</span> 분산된 지식이 희소 자원</li>
                   <li>• <span className="font-semibold">드러커:</span> 지식 노동자와 지식 자본</li>
@@ -56,8 +56,8 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
-                <ul className="text-base space-y-1 text-gray-700">
+                <h3 className="text-base font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
+                <ul className="text-base space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 단순 노동의 희소성 감소</li>
                   <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구로 혁신 장벽 낮아짐</li>
                   <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산하는 일반 자원화</li>
@@ -78,7 +78,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">2. 디지털 시대 경제 질서의 변화</h2>
+              <h2 className="text-lg font-bold">2. 디지털 시대 경제 질서의 변화</h2>
               <p className="text-base italic">"From ownership to access"</p>
             </div>
           </div>
@@ -147,7 +147,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">3. 디지털 전환이 가져오는 공동체의 변화</h2>
+              <h2 className="text-lg font-bold">3. 디지털 전환이 가져오는 공동체의 변화</h2>
               <p className="text-base italic">"Communities of interest, not proximity"</p>
             </div>
           </div>
@@ -193,16 +193,16 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">국가 차원</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 플랫폼-국가 간 데이터 주권 경쟁</li>
+                  <li>• 플랫폼-국가 연합으로 기술 패권 경쟁</li>
                   <li>• 디지털 기술 기반 국가 인프라 혁신</li>
-                  <li>• 디지털 시민권과 국가 정체성 재정의</li>
+                  <li>• 도시와 글로벌의 강화로 국가 정체성 재정의</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">글로벌 차원</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 디지털 기술 기반 지속가능한 발전 모델</li>
+                  <li>• 디지털 기술 기반 지속가능한 협력 시도</li>
                   <li>• 글로벌 디지털 공동체와 국가 정체성 균형</li>
                   <li>• 초국가적 디지털 거버넌스 체계 구축</li>
                 </ul>
@@ -220,7 +220,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">4. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
+              <h2 className="text-lg font-bold">4. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
               <p className="text-base italic">"Digital prosperity's hidden costs"</p>
             </div>
           </div>
@@ -229,32 +229,32 @@ const DigitalEconomyPoster: React.FC = () => {
             <div className="grid grid-cols-3 gap-2">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">디지털 건강 위기:</h3>
-                <p className="text-base text-gray-700">관심 경쟁과 알림 폭격으로 수면장애, 주의력 결핍 증가</p>
+                <p className="text-sm text-gray-700">관심 경쟁과 알림 폭격으로 수면장애, 주의력 결핍 증가</p>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">사회적 단절 심화:</h3>
-                <p className="text-base text-gray-700">온라인 집단으로 이동, 사회적 유대 약화</p>
-              </div>
-              
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">민주주의 기능 약화:</h3>
-                <p className="text-base text-gray-700">선정적 정치 담론 확산, 사회적 합의 능력 저하</p>
+                <p className="text-sm text-gray-700">온라인 집단으로 이동, 사회적 유대 약화</p>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">경제적 안전망 붕괴:</h3>
-                <p className="text-base text-gray-700">노동 중심 설계된 복지 시스템의 부적합성</p>
+                <p className="text-sm text-gray-700">노동 중심 설계된 복지 시스템의 부적합성</p>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">인지 주권 상실:</h3>
-                <p className="text-base text-gray-700">알고리즘 조작으로 자율적 의사결정 침해</p>
+                <p className="text-sm text-gray-700">알고리즘 조작으로 자율적 의사결정 침해</p>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">기술 불평등 심화:</h3>
-                <p className="text-base text-gray-700">디지털 리터러시에 따른 새로운 불평등 발생</p>
+                <p className="text-sm text-gray-700">디지털 리터러시에 따른 새로운 불평등 발생</p>
+              </div>
+
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">패권 경쟁 심화:</h3>
+                <p className="text-sm text-gray-700">디지털 철의 장막으로 국제 국가-기업 연합 간의 갈등</p>
               </div>
             </div>
           </div>
@@ -269,7 +269,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">5. 디지털 경제 질서 수립 전략</h2>
+              <h2 className="text-lg font-bold">5. 디지털 경제 질서 수립 전략</h2>
               <p className="text-base italic">"Securing a safe & prosperous digital future"</p>
             </div>
           </div>
@@ -279,28 +279,30 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">AS-IS:</h3>
                 <ul className="text-base space-y-0.5 text-gray-700 mt-1">
-                  <li>• 노동 중심 경제 질서, 고용 기반 안전망</li>
-                  <li>• AI와 자동화로 노동 가치 재조정 중</li>
-                  <li>• 소수 플랫폼에 관심 집중</li>
+                  <li>• 관심의 과부화로 번아웃</li>
+                  <li>• 노동 가치의 급변으로 사회 혼란</li>
+                  <li>• 소수에게 관심 집중으로 권력 불균형</li>
+                  <li>• 디지털 패권 경쟁과 철의 장막</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">TO-BE:</h3>
                 <ul className="text-base space-y-0.5 text-gray-700 mt-1">
-                  <li>• 균형 잡힌 관심 생태계, 다양성 보장</li>
-                  <li>• 인지적 주권이 보장된 사회</li>
-                  <li>• 디지털-물리적 통합 공동체</li>
+                  <li>• 관심이 건강하게 소비되는 사회</li>
+                  <li>• 노동이 아닌 새로운 가치관이 자리잡는 사회</li>
+                  <li>• 합리적으로 균형있게 분배되는 사회</li>
+                  <li>• 글로벌 디지털 협력 생태계 구축</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">TO-DO:</h3>
                 <div className="text-base text-gray-700 mt-1">
-                  <p>1. <span className="font-bold">사회 변화 분석</span>: 공동체 재구성 과정 모니터링</p>
-                  <p>2. <span className="font-bold">가치 체계 전환</span>: 관심 경제적 가치 측정 체계 혁신</p>
-                  <p>3. <span className="font-bold">제도 혁신</span>: 관심 독점 방지 법적 프레임워크</p>
-                  <p>4. <span className="font-bold">인프라 구축</span>: 인지 주권 강화 교육 시스템</p>
+                  <p>1. <span className="font-bold">디지털 웰빙</span>: 건강한 디지털 소비 연구</p>
+                  <p>2. <span className="font-bold">새로운 가치관</span>: 양한 사회적 기여에 대한 연구</p>
+                  <p>3. <span className="font-bold">균형 분배</span>: 디지털 경제 이익의 공정한 분배</p>
+                  <p>4. <span className="font-bold">글로벌 생태계</span>: 디지털 패권 경쟁에서 협력으로</p>
                 </div>
               </div>
             </div>
