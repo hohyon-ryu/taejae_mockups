@@ -58,11 +58,11 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
                 <ul className="text-base space-y-0.5 text-gray-700">
-                  <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 단순 노동의 희소성 감소</li>
-                  <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구로 혁신 장벽 낮아짐</li>
-                  <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산하는 일반 자원화</li>
-                  <li>• <span className="font-semibold">데이터:</span> 빅데이터 자체보다 처리 능력이 관건</li>
-                  <li>• <span className="font-semibold">관심:</span> 정보 과잉 시대에 부와 직결 (실리콘밸리 빅테크)</li>
+                  <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 노동의 희소성 감소</li>
+                  <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구</li>
+                  <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산</li>
+                  <li>• <span className="font-semibold">데이터:</span> 빅데이터 자체보다 처리 능력</li>
+                  <li>• <span className="font-semibold">관심:</span> 정보 과잉 시대 부와 직결</li>
                 </ul>
               </div>
             </div>
@@ -298,12 +298,12 @@ const DigitalEconomyPoster: React.FC = () => {
               
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">TO-DO:</h3>
-                <div className="text-base text-gray-700 mt-1">
-                  <p>1. <span className="font-bold">디지털 웰빙</span>: 건강한 디지털 소비 연구</p>
-                  <p>2. <span className="font-bold">새로운 가치관</span>: 양한 사회적 기여에 대한 연구</p>
-                  <p>3. <span className="font-bold">균형 분배</span>: 디지털 경제 이익의 공정한 분배</p>
-                  <p>4. <span className="font-bold">글로벌 생태계</span>: 디지털 패권 경쟁에서 협력으로</p>
-                </div>
+                <ul className="text-base space-y-0.5 text-gray-700 mt-1">
+                  <li>• 관심 과부화/독점 방지 시스템 구축 연구</li>
+                  <li>• 노동 외 다양한 사회적 가치 연구</li>
+                  <li>• 디지털 경제 이익의 공정한 분배 연구</li>
+                  <li>• 글로벌 기술 생태계 구축 방안 연구</li>
+                </ul>
               </div>
             </div>
           </div>
