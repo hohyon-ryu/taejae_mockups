@@ -153,35 +153,59 @@ const DigitalEconomyPoster: React.FC = () => {
           </div>
           
           <div className="p-3">
-            <div className="grid grid-cols-3 gap-2">
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">개인:</h3>
-                <p className="text-base text-gray-700">자아의 상품화, '좋아요'로 측정되는 정체성</p>
+            <div className="grid grid-cols-3 gap-3">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">개인과 정체성</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• 자아의 상품화, '좋아요'로 측정되는 정체성</li>
+                  <li>• 디지털 기술을 통한 개인 맞춤형 생활환경 구현</li>
+                  <li>• AI 기반 개인화 서비스로 선호와 정체성 표현</li>
+                </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">가정:</h3>
-                <p className="text-base text-gray-700">가족 시간과 디지털 플랫폼의 경쟁</p>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">가족 공동체</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• 가족 시간과 디지털 플랫폼의 경쟁 구도 변화</li>
+                  <li>• 자녀 육성과 가족 공동체 기쁨을 위한 스마트홈</li>
+                  <li>• 가족 구성원의 커리어 성공을 돕는 디지털 환경</li>
+                </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">이웃:</h3>
-                <p className="text-base text-gray-700">관심사 중심의 새로운 공동체 형성</p>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">이웃과 지역사회</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• 관심사 중심의 새로운 공동체 형성</li>
+                  <li>• 물리적 근접성과 디지털 연결의 하이브리드 공동체</li>
+                  <li>• 디지털 플랫폼을 통한 지역사회 참여 확대</li>
+                </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">기업:</h3>
-                <p className="text-base text-gray-700">플랫폼 기업의 영향력 확대</p>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">도시 공간</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• City OS를 통한 도시 인프라의 통합 관리</li>
+                  <li>• 시민 참여형 거버넌스로 의사결정 민주화</li>
+                  <li>• 빅데이터 기반 선제적 도시 문제 해결</li>
+                </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">도시:</h3>
-                <p className="text-base text-gray-700">도시 공간의 디지털 확장</p>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">국가 차원</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• 플랫폼-국가 간 데이터 주권 경쟁</li>
+                  <li>• 디지털 기술 기반 국가 인프라 혁신</li>
+                  <li>• 디지털 시민권과 국가 정체성 재정의</li>
+                </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg flex items-center">
-                <h3 className="text-base font-bold text-gray-800 mr-2">국가/글로벌:</h3>
-                <p className="text-base text-gray-700">플랫폼-국가 간 데이터 주권 경쟁</p>
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-base font-bold text-gray-800 mb-1">글로벌 차원</h3>
+                <ul className="text-sm space-y-0.5 text-gray-700">
+                  <li>• 디지털 기술 기반 지속가능한 발전 모델</li>
+                  <li>• 글로벌 디지털 공동체와 국가 정체성 균형</li>
+                  <li>• 초국가적 디지털 거버넌스 체계 구축</li>
+                </ul>
               </div>
             </div>
           </div>
