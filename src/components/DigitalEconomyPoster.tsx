@@ -37,7 +37,7 @@ const DigitalEconomyPoster: React.FC = () => {
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
-                <ul className="text-base space-y-0.5 text-gray-700">
+                <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">아담 스미스:</span> 노동이 모든 가치의 원천</li>
                   <li>• <span className="font-semibold">마르크스:</span> 노동 가치설과 잉여가치 이론</li>
                   <li>• 사회 안전망이 노동 중심으로 설계</li>
@@ -47,7 +47,7 @@ const DigitalEconomyPoster: React.FC = () => {
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">경제학적 희소 가치의 변천</h3>
-                <ul className="text-base space-y-0.5 text-gray-700">
+                <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">슘페터:</span> 혁신이 경제 발전의 핵심 동력</li>
                   <li>• <span className="font-semibold">하이예크:</span> 분산된 지식이 희소 자원</li>
                   <li>• <span className="font-semibold">드러커:</span> 지식 노동자와 지식 자본</li>
@@ -57,7 +57,7 @@ const DigitalEconomyPoster: React.FC = () => {
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
-                <ul className="text-base space-y-0.5 text-gray-700">
+                <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 노동의 희소성 감소</li>
                   <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구</li>
                   <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산</li>
@@ -278,7 +278,7 @@ const DigitalEconomyPoster: React.FC = () => {
             <div className="grid grid-cols-3 gap-2">
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">AS-IS:</h3>
-                <ul className="text-base space-y-0.5 text-gray-700 mt-1">
+                <ul className="text-sm space-y-0.5 text-gray-700 mt-1">
                   <li>• 관심의 과부화로 번아웃</li>
                   <li>• 노동 가치의 급변으로 사회 혼란</li>
                   <li>• 소수에게 관심 집중으로 권력 불균형</li>
@@ -288,7 +288,7 @@ const DigitalEconomyPoster: React.FC = () => {
               
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">TO-BE:</h3>
-                <ul className="text-base space-y-0.5 text-gray-700 mt-1">
+                <ul className="text-sm space-y-0.5 text-gray-700 mt-1">
                   <li>• 관심이 건강하게 소비되는 사회</li>
                   <li>• 노동이 아닌 새로운 가치관이 자리잡는 사회</li>
                   <li>• 합리적으로 균형있게 분배되는 사회</li>
@@ -298,7 +298,7 @@ const DigitalEconomyPoster: React.FC = () => {
               
               <div className="bg-gray-50 p-2 rounded-lg flex flex-col">
                 <h3 className="text-base font-bold text-gray-800">TO-DO:</h3>
-                <ul className="text-base space-y-0.5 text-gray-700 mt-1">
+                <ul className="text-sm space-y-0.5 text-gray-700 mt-1">
                   <li>• 관심 과부화/독점 방지 시스템 구축 연구</li>
                   <li>• 노동 외 다양한 사회적 가치 연구</li>
                   <li>• 디지털 경제 이익의 공정한 분배 연구</li>
