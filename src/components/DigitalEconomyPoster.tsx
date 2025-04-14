@@ -1,6 +1,5 @@
 import React from 'react';
 import section1Image from '../assets/images/posters/digital_economy/section1.png';
-import section2Image from '../assets/images/posters/digital_economy/section2.png';
 import section3Image from '../assets/images/posters/digital_economy/section3.png';
 import section5Image from '../assets/images/posters/digital_economy/section5.png';
 
@@ -27,7 +26,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">1. 디지털 시대 경제의 근본적 변화</h2>
+              <h2 className="text-lg font-bold">1. 디지털 시대 경제 질서의 변화</h2>
               <p className="text-base italic">"Attention is all that matters"</p>
             </div>
           </div>
@@ -39,9 +38,11 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">핵심 가치:</span> 노동이 모든 가치의 원천</li>
                   <li>• <span className="font-semibold">경제 이론:</span> 아담 스미스의 노동 가치설, 마르크스의 노동착취론</li>
-                  <li>• <span className="font-semibold">시장 원리:</span> 케인즈의 시장 실패와 정부 개입 이론</li>
-                  <li>• <span className="font-semibold">경제 구조:</span> 노동 중심 사회안전망 설계</li>
-                  <li>• <span className="font-semibold">사회적 가치:</span> '커리어'라는 노동을 통한 정체성 확립</li>
+                  <li>• <span className="font-semibold">시장 원리:</span> 공급과 수요에 기반한 자유 시장 원리</li>
+                  <li>• <span className="font-semibold">경제 구조:</span> 노동 가치 기반 경제 체계</li>
+                  <li>• <span className="font-semibold">경제 주체:</span> 제조업체, 서비스 기업, 소비자</li>
+                  <li>• <span className="font-semibold">경제 객체:</span> 물리적 상품, 서비스, 노동력</li>
+                  <li>• <span className="font-semibold">개인의 가치:</span> '커리어'라는 노동을 통한 정체성 확립</li>
                 </ul>
               </div>
               
@@ -52,7 +53,9 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>• <span className="font-semibold">경제 이론:</span> 슘페터의 혁신론, 하이에크의 분산된 지식</li>
                   <li>• <span className="font-semibold">시장 원리:</span> 프리드먼의 자유 시장과 통화 정책</li>
                   <li>• <span className="font-semibold">경제 구조:</span> 지식 기반 경제로의 전환, 무형 자산 중요성 증가</li>
-                  <li>• <span className="font-semibold">사회적 가치:</span> 지식과 전문성을 통한 사회적 인정</li>
+                  <li>• <span className="font-semibold">경제 주체:</span> 제조업체, 서비스 기업, 소비자</li>
+                  <li>• <span className="font-semibold">경제 객체:</span> 물리적 상품, 서비스, 지식 자산</li>
+                  <li>• <span className="font-semibold">개인의 가치:</span> 지식과 전문성을 통한 사회적 인정</li>
                 </ul>
               </div>
               
@@ -61,79 +64,13 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">핵심 가치:</span> 관심(Attention)이 희소 자원화</li>
                   <li>• <span className="font-semibold">경제 이론:</span> 브린울프스의 데이터와 알고리즘 가치론</li>
-                  <li>• <span className="font-semibold">시장 원리:</span> 관심 기반 수익화 모델의 확산</li>
+                  <li>• <span className="font-semibold">시장 원리:</span> 관심 기반 수익화 모델의 확산, 정부-기업 컨소시엄 협력</li>
                   <li>• <span className="font-semibold">경제 구조:</span> 구글, 메타, 유튜브 등 플랫폼 경제 중심</li>
-                  <li>• <span className="font-semibold">사회적 가치:</span> 관심과 영향력을 통한 사회적 가치 창출</li>
+                  <li>• <span className="font-semibold">경제 주체:</span> 플랫폼, 프로슈머(생산자/소비자 경계 모호)</li>
+                  <li>• <span className="font-semibold">경제 객체:</span> 데이터, 알고리즘, 관심, 경험 (사용/수익/처분/통제권 분리)</li>
+                  <li>• <span className="font-semibold">개인의 가치:</span> 관심과 영향력을 통한 사회적 가치 창출</li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* 비교 표 */}
-        <div className="mb-4 bg-white overflow-hidden">
-          <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
-            <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
-                <img src={section2Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
-              </div>
-            </div>
-            <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">2. 디지털 시대 경제 질서의 변화</h2>
-              <p className="text-base italic">"From ownership to access"</p>
-            </div>
-          </div>
-          
-          <div className="p-3">
-            <div className="overflow-x-auto">
-              <table className="min-w-full bg-white text-sm">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="py-2 px-3 text-left font-bold text-gray-800 border-b">구분</th>
-                    <th className="py-2 px-3 text-left font-bold text-gray-800 border-b">전통</th>
-                    <th className="py-2 px-3 text-left font-bold text-gray-800 border-b">디지털</th>
-                    <th className="py-2 px-3 text-left font-bold text-gray-800 border-b">변화 양상</th>
-                    <th className="py-2 px-3 text-left font-bold text-gray-800 border-b">특징</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-3 font-semibold border-r">경제 주체</td>
-                    <td className="py-2 px-3 border-r">제조업체, 서비스 기업, 소비자</td>
-                    <td className="py-2 px-3 border-r">플랫폼(관심 거래), 크리에이터, 프로슈머</td>
-                    <td className="py-2 px-3 border-r">정규직 → 독립 노동자/자유 계약자</td>
-                    <td className="py-2 px-3">생산자/소비자 경계 모호화</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-3 font-semibold border-r">경제 객체</td>
-                    <td className="py-2 px-3 border-r">물리적 상품, 서비스, 노동력</td>
-                    <td className="py-2 px-3 border-r">데이터, 알고리즘, 관심, 경험</td>
-                    <td className="py-2 px-3 border-r">소유 가치 → 접근 및 경험 가치</td>
-                    <td className="py-2 px-3">사용/수익/처분/통제권 분리</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-3 font-semibold border-r">경제 체제</td>
-                    <td className="py-2 px-3 border-r">노동 중심 경제</td>
-                    <td className="py-2 px-3 border-r">관심 기반 수익화 체제</td>
-                    <td className="py-2 px-3 border-r">생산-분배-소득-소비 구조 디지털화</td>
-                    <td className="py-2 px-3">관심 자체가 희소 자원화</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-3 font-semibold border-r">시장 메커니즘</td>
-                    <td className="py-2 px-3 border-r">경쟁적 시장, 물리적 제약</td>
-                    <td className="py-2 px-3 border-r">승자독식, 네트워크 효과</td>
-                    <td className="py-2 px-3 border-r">규제-피규제 → 정부-기업 컨소시엄 협력</td>
-                    <td className="py-2 px-3">구독 모델, 플랫폼 기반 중개 모델</td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="py-2 px-3 font-semibold border-r">분배 구조</td>
-                    <td className="py-2 px-3 border-r">노동 소득 중심 분배</td>
-                    <td className="py-2 px-3 border-r">관심 기반 계층 형성</td>
-                    <td className="py-2 px-3 border-r">소득 양극화 및 중산층 약화</td>
-                    <td className="py-2 px-3">디지털 부의 재분배 필요성</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
@@ -147,7 +84,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">3. 디지털 전환이 가져오는 공동체의 변화</h2>
+              <h2 className="text-lg font-bold">2. 디지털 전환이 가져오는 공동체의 변화</h2>
               <p className="text-base italic">"Communities of interest, not proximity"</p>
             </div>
           </div>
@@ -220,7 +157,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">4. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
+              <h2 className="text-lg font-bold">3. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
               <p className="text-base italic">"Digital prosperity's hidden costs"</p>
             </div>
           </div>
@@ -263,7 +200,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">5. 디지털 경제 질서 수립 전략</h2>
+              <h2 className="text-lg font-bold">4. 디지털 경제 질서 수립 전략</h2>
               <p className="text-base italic">"Securing a safe & prosperous digital future"</p>
             </div>
           </div>
