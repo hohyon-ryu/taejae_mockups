@@ -2,7 +2,6 @@ import React from 'react';
 import section1Image from '../assets/images/posters/digital_economy/section1.png';
 import section2Image from '../assets/images/posters/digital_economy/section2.png';
 import section3Image from '../assets/images/posters/digital_economy/section3.png';
-import section4Image from '../assets/images/posters/digital_economy/section4.png';
 import section5Image from '../assets/images/posters/digital_economy/section5.png';
 
 const DigitalEconomyPoster: React.FC = () => {
@@ -35,24 +34,35 @@ const DigitalEconomyPoster: React.FC = () => {
           </div>
           
           <div className="p-3">
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-3 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-lg font-bold text-gray-800 mb-1">산업화 시대 핵심 희소 가치: 노동</h3>
                 <ul className="text-base space-y-1 text-gray-700">
-                  <li>• 기업 가치는 인적 자본에 의해 창출</li>
+                  <li>• <span className="font-semibold">아담 스미스:</span> 노동이 모든 가치의 원천</li>
+                  <li>• <span className="font-semibold">마르크스:</span> 노동 가치설과 잉여가치 이론</li>
                   <li>• 사회 안전망이 노동 중심으로 설계</li>
-                  <li>• 공간의 가치는 직주근접 중심으로 형성</li>
                   <li>• 자아 실현도 '커리어'라는 노동으로부터 찾음</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-lg font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심</h3>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">경제학적 희소 가치의 변천</h3>
                 <ul className="text-base space-y-1 text-gray-700">
-                  <li>• 정보와 콘텐츠 폭증으로 '관심'이 희소 자원화</li>
-                  <li>• 소셜 미디어, 엔터테인먼트 등 관심 기반 산업 성장</li>
-                  <li>• 어떻게 생산하는지가 아니라 무엇을 생산하는지가 중요한 창의력의 시대</li>
-                  <li>• 관심 획득이 경제적 부와 직결 (Meta, Google, TikTok, YouTube)</li>
+                  <li>• <span className="font-semibold">슘페터:</span> 혁신이 경제 발전의 핵심 동력</li>
+                  <li>• <span className="font-semibold">하이예크:</span> 분산된 지식이 희소 자원</li>
+                  <li>• <span className="font-semibold">드러커:</span> 지식 노동자와 지식 자본</li>
+                  <li>• <span className="font-semibold">현대:</span> 데이터와 알고리즘의 가치 부상</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
+                <h3 className="text-lg font-bold text-gray-800 mb-1">디지털 시대 핵심 희소 가치: 관심 (Attention)</h3>
+                <ul className="text-base space-y-1 text-gray-700">
+                  <li>• <span className="font-semibold">노동:</span> 자동화와 AI로 인해 단순 노동의 희소성 감소</li>
+                  <li>• <span className="font-semibold">혁신:</span> 오픈소스와 협업 도구로 혁신 장벽 낮아짐</li>
+                  <li>• <span className="font-semibold">지식:</span> AI가 지식을 자동 생산하는 일반 자원화</li>
+                  <li>• <span className="font-semibold">데이터:</span> 빅데이터 자체보다 처리 능력이 관건</li>
+                  <li>• <span className="font-semibold">관심:</span> 정보 과잉 시대에 부와 직결 (실리콘밸리 빅테크)</li>
                 </ul>
               </div>
             </div>
@@ -74,13 +84,13 @@ const DigitalEconomyPoster: React.FC = () => {
           </div>
           
           <div className="p-3">
-            <div className="grid grid-cols-4 gap-3">
+            <div className="grid grid-cols-5 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">경제 주체</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 제조업체, 서비스 기업, 소비자</li>
                   <li>• <span className="font-semibold">디지털:</span> 플랫폼, 크리에이터, 프로슈머</li>
-                  <li>• <span className="font-semibold">고용:</span> 정규직 → 프리랜서, 긱 워커</li>
+                  <li>• <span className="font-semibold">고용:</span> 정규직 → 프리랜서</li>
                   <li>• <span className="font-semibold">역할:</span> 생산자/소비자 경계 모호화</li>
                 </ul>
               </div>
@@ -100,7 +110,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• <span className="font-semibold">전통:</span> 노동 중심 경제</li>
                   <li>• <span className="font-semibold">디지털:</span> 관심 기반 수익화</li>
-                  <li>• <span className="font-semibold">구조:</span> 가치 사슬 디지털화</li>
+                  <li>• <span className="font-semibold">구조:</span> 가치 사슬 디지털화, 자동화</li>
                   <li>• <span className="font-semibold">자원:</span> 관심이 희소 자원화</li>
                 </ul>
               </div>
@@ -114,55 +124,14 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>• <span className="font-semibold">모델:</span> 구독 모델, 플랫폼 기반 중개</li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* 디지털 시대 경제 구조의 변화 */}
-        <div className="mb-4 bg-white rounded-lg shadow-md overflow-hidden">
-          <div className="bg-gray-500 text-white p-2 relative overflow-hidden">
-            <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/90 via-gray-500/85 to-gray-500/80">
-                <img src={section4Image} alt="" className="w-full h-full object-cover opacity-40 mix-blend-overlay" style={{maskImage: 'linear-gradient(to right, transparent 20%, black 50%)'}} />
-              </div>
-            </div>
-            <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">3. 디지털 시대 경제 구조의 변화</h2>
-              <p className="text-base italic">"Platform beats product"</p>
-            </div>
-          </div>
-          
-          <div className="p-3">
-            <div className="grid grid-cols-4 gap-2">
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">산업 구조</h3>
-                <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 플랫폼 중심 산업 생태계 형성</li>
-                  <li>• 콘텐츠 산업의 경제적 비중 증가</li>
-                </ul>
-              </div>
-              
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">시장 구조</h3>
-                <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 양면/다면 시장 확산</li>
-                  <li>• 데이터 기반 가격 차별화 심화</li>
-                </ul>
-              </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
                 <h3 className="text-base font-bold text-gray-800 mb-1">분배 구조</h3>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 소득 양극화 및 중산층 약화</li>
-                  <li>• 관심 자본가 계층 형성</li>
-                </ul>
-              </div>
-              
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-400">
-                <h3 className="text-base font-bold text-gray-800 mb-1">거시경제 구조</h3>
-                <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 디지털 GDP 측정 체계 필요성</li>
-                  <li>• 국가 간 디지털 격차 심화</li>
+                  <li>• <span className="font-semibold">전통:</span> 노동 소득 중심 분배</li>
+                  <li>• <span className="font-semibold">디지털:</span> 관심 자본가 계층 형성</li>
+                  <li>• <span className="font-semibold">결과:</span> 소득 양극화 및 중산층 약화</li>
+                  <li>• <span className="font-semibold">대응:</span> 디지털 부의 재분배 필요성</li>
                 </ul>
               </div>
             </div>
@@ -178,7 +147,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">4. 디지털 전환이 가져오는 공동체의 변화</h2>
+              <h2 className="text-xl font-bold">3. 디지털 전환이 가져오는 공동체의 변화</h2>
               <p className="text-base italic">"Communities of interest, not proximity"</p>
             </div>
           </div>
@@ -227,7 +196,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">5. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
+              <h2 className="text-xl font-bold">4. 디지털 경제의 안전하고 건강한 미래 저해 요소</h2>
               <p className="text-base italic">"Digital prosperity's hidden costs"</p>
             </div>
           </div>
@@ -276,7 +245,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-xl font-bold">6. 디지털 경제 질서 수립 전략</h2>
+              <h2 className="text-xl font-bold">5. 디지털 경제 질서 수립 전략</h2>
               <p className="text-base italic">"Securing a safe & prosperous digital future"</p>
             </div>
           </div>
