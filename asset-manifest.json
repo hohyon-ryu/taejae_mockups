@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taejae_mockups/static/css/main.70b56466.css",
-    "main.js": "/taejae_mockups/static/js/main.19308da4.js",
+    "main.js": "/taejae_mockups/static/js/main.d1a4c90c.js",
     "static/js/453.e630f678.chunk.js": "/taejae_mockups/static/js/453.e630f678.chunk.js",
     "static/media/section3.png": "/taejae_mockups/static/media/section3.b41d257aaa413e54e242.png",
     "static/media/section1.png": "/taejae_mockups/static/media/section1.ec6d4921e218427bc35d.png",
@@ -9,11 +9,11 @@
     "static/media/section2.png": "/taejae_mockups/static/media/section2.bb42f7c6c1bc45df6bee.png",
     "index.html": "/taejae_mockups/index.html",
     "main.70b56466.css.map": "/taejae_mockups/static/css/main.70b56466.css.map",
-    "main.19308da4.js.map": "/taejae_mockups/static/js/main.19308da4.js.map",
+    "main.d1a4c90c.js.map": "/taejae_mockups/static/js/main.d1a4c90c.js.map",
     "453.e630f678.chunk.js.map": "/taejae_mockups/static/js/453.e630f678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70b56466.css",
-    "static/js/main.19308da4.js"
+    "static/js/main.d1a4c90c.js"
   ]
 }
