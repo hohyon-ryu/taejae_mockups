@@ -338,22 +338,22 @@ const DigitalEconomyPoster: React.FC = () => {
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">E. Glen Weyl</span> (마이크로소프트 리서치/래디컬x체인지 재단) - 
-                        <span className="text-gray-600 italic"> '데이터를 노동으로 취급하기(DaL)' (개인이 생성하는 데이터를 노동의 한 형태로 인정하고 보상해야 한다는 개념) 개념 개발, 이차 펀딩(QF), 다원성, 탈중앙화 사회 기술 연구</span>
+                        <span className="font-medium">Daniel Susskind</span> (옥스포드 대학교 경제학자) - 
+                        <span className="text-gray-600 italic"> 기술과 일자리의 미래 연구, 'A World Without Work' 저자로서 AI와 자동화가 인간 노동을 대체하는 과정과 이에 대응하기 위한 사회경제적 구조 변화의 필요성 강조</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Primavera De Filippi</span> (파리 CNRS/하버드 버크만 클라인 센터) - 
-                        <span className="text-gray-600 italic"> 블록체인 거버넌스 및 법적 함의 연구, 탈중앙화 자율 조직(DAO) (중앙 권위 없이 블록체인 기술로 운영되는 새로운 형태의 조직)과 신뢰 메커니즘 분석</span>
+                        <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 HAI 디지털 경제 연구소 소장) - 
+                        <span className="text-gray-600 italic"> 데이터를 새로운 핵심 생산요소로 규정하고 '생산성의 역설'(Productivity Paradox) 개념 개발, 디지털 기술이 기업과 경제 구조를 재편하는 과정 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Julie E. Cohen</span> (조지타운 로스쿨 법률 및 기술 교수) - 
-                        <span className="text-gray-600 italic"> 정보 자본주의 (정보와 데이터가 핵심 자원이 되는 새로운 형태의 자본주의)의 법적 구성 연구, 법률 기관이 정보 시대의 경제적/사회기술적 변화를 공동 생산하는 과정 분석</span>
+                        <span className="font-medium">Dani Rodrik</span> (하버드 케네디 스쿨 국제정치경제학 교수) - 
+                        <span className="text-gray-600 italic"> 글로벌화와 디지털 경제 시대에 국가의 적극적 역할 옹호, 디지털 경제에서 시장 실패를 보완하고 시장을 형성하는 국가 정책의 중요성 강조</span>
                       </div>
                     </li>
                   </ul>
