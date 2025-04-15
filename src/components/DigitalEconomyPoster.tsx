@@ -221,8 +221,8 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-xs space-y-0.5 text-gray-700">
                   <li>• 디지털 시대의 개인, 가정, 이웃 역할 변화</li>
                   <li>• 디지털 전환에 따른 도시와 국가 경계 및 기능 재편</li>
-                  <li>• 디지털 시대의 경제 활동 변화</li>
-                  <li>• 디지털 시대 경제 주체의 변화와 관계 형성</li>
+                  <li>• 디저털 시대 경제학의 기본 분야 연구</li>
+                  <li>• 디지털 시대 경제 주체의 변화 연구</li>
                 </ul>
               </div>
             </div>
@@ -252,21 +252,21 @@ const DigitalEconomyPoster: React.FC = () => {
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Shoshana Zuboff</span> (하버드 경영대학원 명예교수) - 
-                        <span className="text-gray-600 italic"> 감시 자본주의 개념 창시자, 인간 경험을 행동 데이터로 변환하여 예측 상품화하는 새로운 경제 논리 분석</span>
+                        <span className="text-gray-600 italic"> 감시 자본주의 (우리의 온라인 활동이 기업의 이윤을 위한 데이터로 수집되는 경제 체제) 개념 창시자, 인간 경험을 행동 데이터로 변환하여 예측 상품화하는 새로운 경제 논리 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Brett Frischmann & Evan Selinger</span> (빌라노바 로스쿨/RIT 철학) - 
-                        <span className="text-gray-600 italic"> 기술-사회 공학 개념 제시, 스마트 기술이 인간의 사고와 행동 방식을 프로그래밍하는 과정 분석</span>
+                        <span className="text-gray-600 italic"> 기술-사회 공학 (기술이 우리의 사고와 행동 방식을 설계하고 변화시키는 과정) 개념 제시, 스마트 기술이 인간의 사고와 행동 방식을 프로그래밍하는 과정 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Nick Couldry & Ulises Mejias</span> (LSE/SUNY 오스위고) - 
-                        <span className="text-gray-600 italic"> 데이터 식민주의 개념 개발, 인간 삶을 자본주의를 위한 데이터로 전유하는 새로운 형태의 식민주의 분석</span>
+                        <span className="text-gray-600 italic"> 데이터 식민주의 (기업이 사람들의 일상 데이터를 자원처럼 추출하고 이용하는 새로운 형태의 지배) 개념 개발, 인간 삶을 자본주의를 위한 데이터로 전유하는 새로운 형태의 식민주의 분석</span>
                       </div>
                     </li>
                   </ul>
@@ -281,14 +281,14 @@ const DigitalEconomyPoster: React.FC = () => {
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Saskia Sassen</span> (컬럼비아 대학교/LSE 교수) - 
-                        <span className="text-gray-600 italic"> '글로벌 도시' 개념 창시자, 세계 경제의 지휘 본부로서 도시의 역할과 국가 내 새로운 영토 형성 분석</span>
+                        <span className="text-gray-600 italic"> '글로벌 도시' (국가 경계를 넘어 세계 경제의 중심 역할을 하는 대도시) 개념 창시자, 세계 경제의 지휘 본부로서 도시의 역할과 국가 내 새로운 영토 형성 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Benjamin Bratton</span> (UC 샌디에고 교수) - 
-                        <span className="text-gray-600 italic"> '스택' 개념 개발, 행성적 규모의 컴퓨테이션이 새로운 지정학적 아키텍처를 형성하는 방식 연구</span>
+                        <span className="text-gray-600 italic"> '스택' (지구 전체를 아우르는 컴퓨터 시스템 구조와 그 영향력) 개념 개발, 행성적 규모의 컴퓨테이션이 새로운 지정학적 아키텍처를 형성하는 방식 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -303,28 +303,28 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">3. 디지털 시대의 경제 활동 변화</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">3. 디저털 시대 경제학의 기본 분야 연구</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 HAI 디지털 경제 연구소 소장) - 
-                        <span className="text-gray-600 italic"> 생산성 역설/J-커브 개념 개발, AI가 생산성과 경제에 미치는 영향 및 디지털 경제 측정 방법론 연구</span>
+                        <span className="text-gray-600 italic"> 생산성 역설/J-커브 (디지털 기술 도입 초기에는 생산성이 감소했다가 나중에 급증하는 현상) 개념 개발, AI가 장기적으로 생산성을 크게 향상시킬 것이라는 낙관적 관점의 디지털 경제 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Daron Acemoglu</span> (MIT 인스티튜트 교수, 노벨 경제학상 수상자) - 
-                        <span className="text-gray-600 italic"> 기술 편향적 기술 변화(SBTC) 및 과업 기반 프레임워크 개발, 자동화가 노동 시장과 불평등에 미치는 영향 연구</span>
+                        <span className="text-gray-600 italic"> 기술 편향적 기술 변화(SBTC) (고숙련 노동자에게 유리한 방향으로 진행되는 기술 발전) 및 과업 기반 프레임워크 개발, AI의 생산성 향상 효과가 제한적이며 불평등을 심화시킬 수 있다는 신중한 관점 제시</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Carlota Perez</span> (런던 경제대학 기술변화 및 개발 전문가) - 
-                        <span className="text-gray-600 italic"> 기술혁명과 패러다임 전환의 장기적 영향, 기술-경제 패러다임 개념 개발</span>
+                        <span className="text-gray-600 italic"> 기술혁명과 패러다임 전환의 장기적 영향, 기술-경제 패러다임 (새로운 기술이 경제 전반의 구조와 운영 방식을 근본적으로 바꾸는 현상) 개념 개발</span>
                       </div>
                     </li>
                   </ul>
@@ -332,28 +332,28 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">4. 디지털 시대 경제 주체의 변화와 관계 형성</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">4. 디지털 시대 경제 주체의 변화 연구</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">E. Glen Weyl</span> (마이크로소프트 리서치/래디컬x체인지 재단) - 
-                        <span className="text-gray-600 italic"> '데이터를 노동으로 취급하기(DaL)' 개념 개발, 이차 펀딩(QF), 다원성, 탈중앙화 사회 기술 연구</span>
+                        <span className="text-gray-600 italic"> '데이터를 노동으로 취급하기(DaL)' (개인이 생성하는 데이터를 노동의 한 형태로 인정하고 보상해야 한다는 개념) 개념 개발, 이차 펀딩(QF), 다원성, 탈중앙화 사회 기술 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Primavera De Filippi</span> (파리 CNRS/하버드 버크만 클라인 센터) - 
-                        <span className="text-gray-600 italic"> 블록체인 거버넌스 및 법적 함의 연구, 탈중앙화 자율 조직(DAO)과 신뢰 메커니즘 분석</span>
+                        <span className="text-gray-600 italic"> 블록체인 거버넌스 및 법적 함의 연구, 탈중앙화 자율 조직(DAO) (중앙 권위 없이 블록체인 기술로 운영되는 새로운 형태의 조직)과 신뢰 메커니즘 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Julie E. Cohen</span> (조지타운 로스쿨 법률 및 기술 교수) - 
-                        <span className="text-gray-600 italic"> 정보 자본주의의 법적 구성 연구, 법률 기관이 정보 시대의 경제적/사회기술적 변화를 공동 생산하는 과정 분석</span>
+                        <span className="text-gray-600 italic"> 정보 자본주의 (정보와 데이터가 핵심 자원이 되는 새로운 형태의 자본주의)의 법적 구성 연구, 법률 기관이 정보 시대의 경제적/사회기술적 변화를 공동 생산하는 과정 분석</span>
                       </div>
                     </li>
                   </ul>
