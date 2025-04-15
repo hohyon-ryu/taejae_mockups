@@ -31,8 +31,12 @@ const DigitalEconomyPoster: React.FC = () => {
             </div>
           </div>
           
-          <div className="p-3">           
-            <div className="grid grid-cols-3 gap-3">
+          <div className="p-3">
+            <div className="mb-2 bg-gray-50 p-2 rounded-lg">
+              <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1: 디지털 시대에 개인, 가정, 이웃의 역할은 어떻게 변화하는가?</h4>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-3 mb-4">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">개인</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
@@ -60,7 +64,14 @@ const DigitalEconomyPoster: React.FC = () => {
                 </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+            </div>
+            
+            <div className="mb-2 bg-gray-50 p-2 rounded-lg">
+              <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2: 디지털 전환으로 인해 도시와 국가의 경계와 기능은 어떻게 재편되는가?</h4>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-3">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">도시</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
                   <li>• 도시별 특화 산업 중심으로 전문화 및 주변 도시와 인프라 공유</li>
@@ -69,7 +80,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">국가</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
                   <li>• 행정·정책 기능의 전문화된 도시로 분산 및 권한 이양</li>
@@ -78,7 +89,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 </ul>
               </div>
               
-              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">글로벌</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
                   <li>• 디지털 기술 패권을 둘러싼 강대국 간 경쟁 심화</li>
@@ -104,48 +115,70 @@ const DigitalEconomyPoster: React.FC = () => {
           </div>
           
           <div className="p-3">
-            <div className="overflow-x-auto mb-3">
-              <table className="min-w-full bg-white text-xs">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">경제 질서</th>
-                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">주요 변화</th>
-                    <th className="py-2 px-2 text-left font-bold text-gray-800 border-b">연구 질문</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">경제 모델</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 플랫폼 중심</span>으로 경제 권력 재편, <span className="font-medium text-green-700">데이터 기반 가치 창출</span>로 시장 원리 변화. 전통적 규제 체계의 한계와 새로운 거버넌스 모델 필요성 증가.</td>
-                    <td className="py-2 px-2">디지털 플랫폼 경제에서 시장 자율성과 사회적 규제의 균형점은 어디에 있는가?</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">소유권의 변화</td>
-                    <td className="py-2 px-2 border-r">소유에서 접근으로 전환, <span className="font-medium text-green-700">디지털 자원의 공유 경제</span> 확산. <span className="font-medium text-green-700">도시 간 인프라 공유 모델</span> 발전으로 공유 경제 확산, 디지털 자산 개념 재정립.</td>
-                    <td className="py-2 px-2">디지털 시대의 소유권과 데이터 통제권을 어떻게 재정의하고 공정하게 분배할 것인가?</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">노동 시장</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">AI의 노동 대체와 창의성 중시</span>로 일자리 재편 가속화. <span className="font-medium text-green-700">전문성 기반 도시 형성</span>으로 노동의 이동성 증가, 긱 경제 확산.</td>
-                    <td className="py-2 px-2">AI 시대 인간 노동의 가치를 어떻게 정의하고 포용적 사회 안전망을 재설계할 것인가?</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">기업 생태계</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 전환을 통한 기업 생산성 향상</span>과 <span className="font-medium text-green-700">플랫폼 기업의 권력화</span>로 기업 간 역학 변화. <span className="font-medium text-green-700">기업-정부-고객 관계의 재정립</span>으로 새로운 기업 생태계 형성.</td>
-                    <td className="py-2 px-2">플랫폼 기업의 과도한 권력을 견제하면서도 혁신을 촉진하는 균형적 기업 생태계를 어떻게 구축할 것인가?</td>
-                  </tr>
-                  <tr className="border-b hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">국제 무역</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 무역 블록화</span>로 무역 규범 정립 중요성 증대. <span className="font-medium text-green-700">글로벌 경제 질서 재편</span>에서 국가 간 협력과 조정 역할 강화.</td>
-                    <td className="py-2 px-2">디지털 기술 패권 경쟁 속에서 공정하고 상호 호혜적인 국제 무역 규범을 어떻게 설계하고 구현할 것인가?</td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="py-2 px-2 font-semibold border-r">금융 구조</td>
-                    <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">정보 과부하 관리</span> 위한 새 금융 서비스 등장. <span className="font-medium text-green-700">사이버 안보와 데이터 주권</span> 중심 질서가 CBDC, 탈중앙화 금융(DeFi) 발전 촉진.</td>
-                    <td className="py-2 px-2">디지털 금융 혁신이 가져올 금융 시스템의 근본적 변화와 이에 대응하는 새로운 금융 안정성 확보 방안은 무엇인가?</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="mb-2 bg-gray-50 p-2 rounded-lg">
+              <h4 className="text-sm font-bold text-gray-800 mb-1">RQ3: 디지털 시대에 경제 활동은 어떻게 변화하는가?</h4>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-3 mb-4">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">생산</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• AI와 자동화 기술로 인한 생산 방식의 근본적 변화</li>
+                  <li>• 데이터 기반 가치 창출이 물리적 생산을 대체</li>
+                  <li>• 새로운 생산성 개념 등장</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">분배</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• 소유에서 접근으로 경제적 권리 개념 전환</li>
+                  <li>• 디지털 자원의 공유 경제 확산</li>
+                  <li>• 전통적 소유권 개념 약화</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-green-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">소비</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• 개인화된 소비 경험 확대</li>
+                  <li>• 메타버스 기반 가상 소비로 소비 행태 변화</li>
+                  <li>• 디지털 재화와 서비스의 비중 증가</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mb-2 bg-gray-50 p-2 rounded-lg">
+              <h4 className="text-sm font-bold text-gray-800 mb-1">RQ4: 디지털 시대에 경제 주체들은 어떻게 변화하고 어떻게 관계를 형성하는가?</h4>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-3">
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">개인</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• AI의 노동 대체와 창의성 중시로 경제적 역할 재정의</li>
+                  <li>• 디지털 역량이 경제적 기회의 핵심 결정 요인으로 부상</li>
+                  <li>• 새로운 소득 보장 제도 필요성 증가</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">기업</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• 플랫폼 기업의 권력화 심화</li>
+                  <li>• 데이터 기반 비즈니스 모델 확산</li>
+                  <li>• 기업의 사회적 책임과 거버넌스 구조 변화</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-purple-400">
+                <h4 className="text-sm font-bold text-gray-800 mb-1">국가</h4>
+                <ul className="text-xs space-y-0.5 text-gray-700">
+                  <li>• 디지털 철의 장막과 사이버 안보 중심 질서 형성</li>
+                  <li>• 국가의 규제자 및 조정자 역할 강화</li>
+                  <li>• 도시 중심 거버넌스로의 분산화</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
