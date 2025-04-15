@@ -117,32 +117,32 @@ const DigitalEconomyPoster: React.FC = () => {
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">경제 모델</td>
                     <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 플랫폼 중심</span>으로 경제 권력 재편, <span className="font-medium text-green-700">데이터 기반 가치 창출</span>로 시장 원리 변화. 전통적 규제 체계의 한계와 새로운 거버넌스 모델 필요성 증가.</td>
-                    <td className="py-2 px-2">디지털 플랫폼 경제에서 시장 자율성과 사회적 규제 사이의 균형점은 어디에 있으며, 이를 위한 새로운 거버넌스 모델은 무엇인가?</td>
+                    <td className="py-2 px-2">디지털 플랫폼 경제에서 시장 자율성과 사회적 규제의 균형점은 어디에 있는가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">소유권의 변화</td>
                     <td className="py-2 px-2 border-r">소유에서 접근으로 전환, <span className="font-medium text-green-700">디지털 자원의 공유 경제</span> 확산. <span className="font-medium text-green-700">도시 간 인프라 공유 모델</span> 발전으로 공유 경제 확산, 디지털 자산 개념 재정립.</td>
-                    <td className="py-2 px-2">디지털 시대에 소유권과 지적재산권은 어떻게 재정의되어야 하며, 데이터 소유와 통제권의 균형적 분배 방안은 무엇인가?</td>
+                    <td className="py-2 px-2">디지털 시대의 소유권과 데이터 통제권을 어떻게 재정의하고 공정하게 분배할 것인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">노동 시장</td>
                     <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">AI의 노동 대체와 창의성 중시</span>로 일자리 재편 가속화. <span className="font-medium text-green-700">전문성 기반 도시 형성</span>으로 노동의 이동성 증가, 긱 경제 확산.</td>
-                    <td className="py-2 px-2">AI 시대 노동의 본질적 가치는 무엇이며, 노동자 권리 보장과 사회 안전망 재설계를 위한 핵심 원칙은 무엇인가?</td>
+                    <td className="py-2 px-2">AI 시대 인간 노동의 가치를 어떻게 정의하고 포용적 사회 안전망을 재설계할 것인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">기업 생태계</td>
                     <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 전환을 통한 기업 생산성 향상</span>과 <span className="font-medium text-green-700">플랫폼 기업의 권력화</span>로 기업 간 역학 변화. <span className="font-medium text-green-700">기업-정부-고객 관계의 재정립</span>으로 새로운 기업 생태계 형성.</td>
-                    <td className="py-2 px-2">디지털 플랫폼의 권력 집중을 견제하면서 기업의 혁신을 촉진하는 균형적 생태계를 어떻게 구축할 것인가?</td>
+                    <td className="py-2 px-2">플랫폼 기업의 과도한 권력을 견제하면서도 혁신을 촉진하는 균형적 기업 생태계를 어떻게 구축할 것인가?</td>
                   </tr>
                   <tr className="border-b hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">국제 무역</td>
                     <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">디지털 무역 블록화</span>로 무역 규범 정립 중요성 증대. <span className="font-medium text-green-700">글로벌 경제 질서 재편</span>에서 국가 간 협력과 조정 역할 강화.</td>
-                    <td className="py-2 px-2">디지털 기술 패권 경쟁 속에서 국경 간 데이터 이동과 디지털 서비스 무역의 공정한 국제 규범은 어떻게 구축되어야 하는가?</td>
+                    <td className="py-2 px-2">디지털 기술 패권 경쟁 속에서 공정하고 상호 호혜적인 국제 무역 규범을 어떻게 설계하고 구현할 것인가?</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="py-2 px-2 font-semibold border-r">금융 구조</td>
                     <td className="py-2 px-2 border-r"><span className="font-medium text-green-700">정보 과부하 관리</span> 위한 새 금융 서비스 등장. <span className="font-medium text-green-700">사이버 안보와 데이터 주권</span> 중심 질서가 CBDC, 탈중앙화 금융(DeFi) 발전 촉진.</td>
-                    <td className="py-2 px-2">디지털 금융 혁신이 가져올 금융 시스템의 근본적 변화는 무엇이며, 안정성과 포용성, 프라이버시를 어떻게 보장할 것인가?</td>
+                    <td className="py-2 px-2">디지털 금융 혁신이 가져올 금융 시스템의 근본적 변화와 이에 대응하는 새로운 금융 안정성 확보 방안은 무엇인가?</td>
                   </tr>
                 </tbody>
               </table>
