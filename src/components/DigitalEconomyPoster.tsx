@@ -310,7 +310,7 @@ const DigitalEconomyPoster: React.FC = () => {
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 HAI 디지털 경제 연구소 소장) - 
-                        <span className="text-gray-600 italic"> 데이터를 새로운 핵심 생산요소로 규정하고 '생산성의 역설'(Productivity Paradox) 개념 개발, 디지털 기술이 기업과 경제 구조를 재편하는 과정 연구. 생산성의 역설이란 디지털 기술 도입 초기에는 생산성이 오히려 정체되거나 감소하다가, 조직과 프로세스가 새로운 기술에 적응한 후에야 생산성이 크게 향상되는 현상을 의미함</span>
+                        <span className="text-gray-600 italic"> 생산-분배-소비의 경제 기본 구조가 디지털화로 변화하는 과정 연구, '생산성의 역설'(Productivity Paradox) 개념 개발. 생산성의 역설이란 디지털 기술 도입 초기에는 생산성이 오히려 정체되거나 감소하다가, 조직과 프로세스가 새로운 기술에 적응한 후에야 생산성이 크게 향상되는 현상을 의미함</span>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -346,7 +346,7 @@ const DigitalEconomyPoster: React.FC = () => {
                       <span className="mr-1">•</span>
                       <div>
                         <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 HAI 디지털 경제 연구소 소장) - 
-                        <span className="text-gray-600 italic"> 데이터를 새로운 핵심 생산요소로 규정하고 '생산성의 역설'(Productivity Paradox) 개념 개발, 디지털 기술이 기업과 경제 구조를 재편하는 과정 연구</span>
+                        <span className="text-gray-600 italic"> 데이터를 새로운 핵심 생산요소로 규정하고, 기업 조직과 비즈니스 모델이 디지털 전환에 적응하는 과정 연구. 플랫폼 기업의 부상과 기업 경계 재정의, 데이터 기반 의사결정이 기업 경쟁력에 미치는 영향 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
