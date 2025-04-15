@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/taejae_mockups/static/css/main.15ee64f6.css",
-    "main.js": "/taejae_mockups/static/js/main.0ec53a66.js",
+    "main.css": "/taejae_mockups/static/css/main.838010bb.css",
+    "main.js": "/taejae_mockups/static/js/main.02e6d4e8.js",
     "static/js/453.e630f678.chunk.js": "/taejae_mockups/static/js/453.e630f678.chunk.js",
     "static/media/section4.png": "/taejae_mockups/static/media/section4.9fa8e43aa518ff549e5d.png",
     "static/media/section3.png": "/taejae_mockups/static/media/section3.b41d257aaa413e54e242.png",
@@ -9,12 +9,12 @@
     "static/media/section5.png": "/taejae_mockups/static/media/section5.475d01fdff25a79b78c5.png",
     "static/media/section2.png": "/taejae_mockups/static/media/section2.bb42f7c6c1bc45df6bee.png",
     "index.html": "/taejae_mockups/index.html",
-    "main.15ee64f6.css.map": "/taejae_mockups/static/css/main.15ee64f6.css.map",
-    "main.0ec53a66.js.map": "/taejae_mockups/static/js/main.0ec53a66.js.map",
+    "main.838010bb.css.map": "/taejae_mockups/static/css/main.838010bb.css.map",
+    "main.02e6d4e8.js.map": "/taejae_mockups/static/js/main.02e6d4e8.js.map",
     "453.e630f678.chunk.js.map": "/taejae_mockups/static/js/453.e630f678.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15ee64f6.css",
-    "static/js/main.0ec53a66.js"
+    "static/css/main.838010bb.css",
+    "static/js/main.02e6d4e8.js"
   ]
 }
