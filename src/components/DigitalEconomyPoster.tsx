@@ -47,7 +47,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-xs space-y-0.5 text-gray-700">
                   <li>• 스마트홈 센서가 건강과 개인의 잠재력을 어릴 때부터 최대화</li>
                   <li>• AI 가정교사와 메타버스 체험학습으로 맞춤형 교육 일상화</li>
-                  <li>• 디지털 스트레스 관리를 위한 가족 지원 체계 발달</li>
+                  <li>• 가상 업무 공간으로 역할 확대하는 방향</li>
                 </ul>
               </div>
               
