@@ -10,7 +10,7 @@ const DigitalEconomyPoster: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* 헤더 */}
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대의 경제 질서</h1>
+          <h1 className="text-4xl font-extrabold mb-2 text-gray-900 tracking-tight">디지털 시대의 경제 질서 연구 기획안</h1>
           <div className="bg-gray-100 p-3 rounded-lg inline-block">
             <p className="text-base text-gray-800 italic font-medium">
               "디지털 전환이 가속화됨에 따라 사회 구조는 어떻게 변화하며, 이러한 변화는 기존 경제 질서에 어떤 영향을 미치는가?"
@@ -27,15 +27,12 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">1. 디지털 시대 사회 변혁</h2>
+              <h2 className="text-lg font-bold">1. 디지털 시대 사회 변혁 연구</h2>
             </div>
           </div>
           
           <div className="p-3">
-            <div className="mb-1">
-              <h4 className="text-sm font-bold text-gray-800">RQ1: 디지털 시대에 개인, 가정, 이웃의 역할은 어떻게 변화하는가?</h4>
-            </div>
-            
+  
             <div className="grid grid-cols-3 gap-3 mb-4">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">개인</h4>
@@ -58,7 +55,7 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">공동체 및 이웃</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 창의적 가족들이 모여 형성하는 혁신적 커뮤니티</li>
+                  <li>• 관심사에 따라 형성하는 커뮤니티</li>
                   <li>• 디지털 역량 공유 및 상호 지원 네트워크 발달</li>
                   <li>• 온-오프라인 융합된 새로운 이웃 관계 형성</li>
                 </ul>
@@ -66,10 +63,7 @@ const DigitalEconomyPoster: React.FC = () => {
               
             </div>
             
-            <div className="mb-1">
-              <h4 className="text-sm font-bold text-gray-800">RQ2: 디지털 전환으로 도시와 국가의 경계와 기능은 어떻게 재편되는가?</h4>
-            </div>
-            
+      
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
                 <h4 className="text-sm font-bold text-gray-800 mb-1">도시</h4>
@@ -110,13 +104,13 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">2. 경제 질서의 재편</h2>
+              <h2 className="text-lg font-bold">2. 경제 질서의 재편 연구</h2>
             </div>
           </div>
           
           <div className="p-3">
             <div className="mb-1">
-              <h4 className="text-sm font-bold text-gray-800">RQ3: 디지털 시대에 경제 활동은 어떻게 변화하는가?</h4>
+              <h4 className="text-sm font-bold text-gray-800">1. 경제학의 기본 분야 연구</h4>
             </div>
             
             <div className="grid grid-cols-3 gap-3 mb-4">
@@ -149,7 +143,7 @@ const DigitalEconomyPoster: React.FC = () => {
             </div>
             
             <div className="mb-1">
-              <h4 className="text-sm font-bold text-gray-800">RQ4: 디지털 시대에 경제 주체들은 어떻게 변화하고 관계를 형성하는가?</h4>
+              <h4 className="text-sm font-bold text-gray-800">2. 경제 주체의 변화 연구</h4>
             </div>
             
             <div className="grid grid-cols-3 gap-3">
@@ -192,7 +186,7 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">3. 현재 문제점과 미래 방향성</h2>
+              <h2 className="text-lg font-bold">3. 연구 과제</h2>
             </div>
           </div>
           
@@ -223,12 +217,12 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">TO-DO (연구소의 실천 과제)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">TO-DO (연구 주제)</h4>
                 <ul className="text-xs space-y-0.5 text-gray-700">
-                  <li>• 디지털 격차 해소를 위한 정책 연구 및 제안</li>
-                  <li>• 플랫폼 경제의 공정 경쟁 모델 개발</li>
-                  <li>• 디지털 시대 노동 안전망 재설계 방안 연구</li>
-                  <li>• 글로벌 디지털 경제 거버넌스 프레임워크 구축 연구</li>
+                  <li>• 디지털 시대의 개인, 가정, 이웃 역할 변화</li>
+                  <li>• 디지털 전환에 따른 도시와 국가 경계 및 기능 재편</li>
+                  <li>• 디지털 시대의 경제 활동 변화</li>
+                  <li>• 디지털 시대 경제 주체의 변화와 관계 형성</li>
                 </ul>
               </div>
             </div>
@@ -244,35 +238,35 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
             </div>
             <div className="relative z-10 flex justify-between items-center">
-              <h2 className="text-lg font-bold">4. 연구 질문 및 전문가 매핑</h2>
+              <h2 className="text-lg font-bold">4. 분야별 석학</h2>
             </div>
           </div>
           
           <div className="p-3">
             <div className="grid grid-cols-2 gap-3 mb-3">
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ1: 디지털 시대에 개인, 가정, 이웃의 역할은 어떻게 변화하는가? (유재연)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">1. 디지털 시대의 개인, 가정, 이웃 역할 변화</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Shoshana Zuboff</span> (하버드 대학교 경영대학원 명예교수) - 
-                        <span className="text-gray-600 italic"> 감시 자본주의 개념 창시자, 디지털 기업의 개인 데이터 활용과 자율성 영향 연구</span>
+                        <span className="font-medium">Shoshana Zuboff</span> (하버드 경영대학원 명예교수) - 
+                        <span className="text-gray-600 italic"> 감시 자본주의 개념 창시자, 인간 경험을 행동 데이터로 변환하여 예측 상품화하는 새로운 경제 논리 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Yochai Benkler</span> (하버드 법대 교수, 버크만 클라인 센터 공동 디렉터) - 
-                        <span className="text-gray-600 italic"> 디지털 커먼즈와 분산 생산 연구, 정보 공유와 협력적 생산 메커니즘 탐구</span>
+                        <span className="font-medium">Brett Frischmann & Evan Selinger</span> (빌라노바 로스쿨/RIT 철학) - 
+                        <span className="text-gray-600 italic"> 기술-사회 공학 개념 제시, 스마트 기술이 인간의 사고와 행동 방식을 프로그래밍하는 과정 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Karen Yeung</span> (버밍엄 대학교 법, 윤리, 정보학 학제간 교수) - 
-                        <span className="text-gray-600 italic"> 신기술 거버넌스, 알고리즘 규제, 빅데이터와 AI의 법적/윤리적 함의 연구</span>
+                        <span className="font-medium">Nick Couldry & Ulises Mejias</span> (LSE/SUNY 오스위고) - 
+                        <span className="text-gray-600 italic"> 데이터 식민주의 개념 개발, 인간 삶을 자본주의를 위한 데이터로 전유하는 새로운 형태의 식민주의 분석</span>
                       </div>
                     </li>
                   </ul>
@@ -280,28 +274,28 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ2: 디지털 전환으로 도시와 국가의 경계와 기능은 어떻게 재편되는가? (윤준영)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">2. 디지털 전환에 따른 도시와 국가 경계 및 기능 재편</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Laura DeNardis</span> (조지타운 대학교 교수, 기술·윤리·사회 석좌) - 
-                        <span className="text-gray-600 italic"> 글로벌 인터넷 거버넌스 및 인프라 정책, 기술적 거버넌스의 지정학적 갈등 연구</span>
+                        <span className="font-medium">Saskia Sassen</span> (컬럼비아 대학교/LSE 교수) - 
+                        <span className="text-gray-600 italic"> '글로벌 도시' 개념 창시자, 세계 경제의 지휘 본부로서 도시의 역할과 국가 내 새로운 영토 형성 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Saskia Sassen</span> (컬럼비아 대학교 사회학 교수) - 
-                        <span className="text-gray-600 italic"> 글로벌 도시, 이주, 디지털화가 도시와 국가 경계에 미치는 영향 연구</span>
+                        <span className="font-medium">Benjamin Bratton</span> (UC 샌디에고 교수) - 
+                        <span className="text-gray-600 italic"> '스택' 개념 개발, 행성적 규모의 컴퓨테이션이 새로운 지정학적 아키텍처를 형성하는 방식 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Benjamin Bratton</span> (캘리포니아 대학교 샌디에고 교수) - 
-                        <span className="text-gray-600 italic"> 디지털 인프라의 지정학적 재구성, "The Stack" 개념을 통한 디지털 주권 모델 제시</span>
+                        <span className="font-medium">Laura DeNardis</span> (조지타운 대학교 교수) - 
+                        <span className="text-gray-600 italic"> 인터넷 거버넌스의 정치적 특성 연구, 기술적 아키텍처가 권력 역학과 글로벌 갈등의 장이 되는 과정 분석</span>
                       </div>
                     </li>
                   </ul>
@@ -309,14 +303,21 @@ const DigitalEconomyPoster: React.FC = () => {
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ3: 디지털 시대에 경제 활동은 어떻게 변화하는가? (노가빈)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">3. 디지털 시대의 경제 활동 변화</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 대학교 디지털 이코노미 랩 교수) - 
-                        <span className="text-gray-600 italic"> 디지털 시대 경제학, AI와 빅데이터가 생산성과 고용에 미치는 영향 연구</span>
+                        <span className="font-medium">Erik Brynjolfsson</span> (스탠포드 HAI 디지털 경제 연구소 소장) - 
+                        <span className="text-gray-600 italic"> 생산성 역설/J-커브 개념 개발, AI가 생산성과 경제에 미치는 영향 및 디지털 경제 측정 방법론 연구</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-1">•</span>
+                      <div>
+                        <span className="font-medium">Daron Acemoglu</span> (MIT 인스티튜트 교수, 노벨 경제학상 수상자) - 
+                        <span className="text-gray-600 italic"> 기술 편향적 기술 변화(SBTC) 및 과업 기반 프레임워크 개발, 자동화가 노동 시장과 불평등에 미치는 영향 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -326,40 +327,33 @@ const DigitalEconomyPoster: React.FC = () => {
                         <span className="text-gray-600 italic"> 기술혁명과 패러다임 전환의 장기적 영향, 기술-경제 패러다임 개념 개발</span>
                       </div>
                     </li>
-                    <li className="flex items-start">
-                      <span className="mr-1">•</span>
-                      <div>
-                        <span className="font-medium">Nick Srnicek</span> (킹스 칼리지 런던 디지털 경제 강사) - 
-                        <span className="text-gray-600 italic"> 플랫폼 자본주의와 디지털 경제의 정치경제학, 데이터 기반 비즈니스 모델 분석</span>
-                      </div>
-                    </li>
                   </ul>
                 </div>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-sm font-bold text-gray-800 mb-1">RQ4: 디지털 시대에 경제 주체들은 어떻게 변화하고 관계를 형성하는가? (김민호)</h4>
+                <h4 className="text-sm font-bold text-gray-800 mb-1">4. 디지털 시대 경제 주체의 변화와 관계 형성</h4>
                 <div className="mt-1">
                   <ul className="text-xs space-y-1 text-gray-700">
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">E. Glen Weyl</span> (마이크로소프트 CTO 사무소 수석 연구원) - 
-                        <span className="text-gray-600 italic"> 디지털 경제의 재산권과 시장 구조, "데이터를 노동으로 취급하기" 개념 주창</span>
+                        <span className="font-medium">E. Glen Weyl</span> (마이크로소프트 리서치/래디컬x체인지 재단) - 
+                        <span className="text-gray-600 italic"> '데이터를 노동으로 취급하기(DaL)' 개념 개발, 이차 펀딩(QF), 다원성, 탈중앙화 사회 기술 연구</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Julie E. Cohen</span> (조지타운 법대 법률 및 기술 교수) - 
-                        <span className="text-gray-600 italic"> 정보시대 법률 이론, 네트워크 기술이 지적재산권과 거버넌스를 재구성하는 방식 연구</span>
+                        <span className="font-medium">Primavera De Filippi</span> (파리 CNRS/하버드 버크만 클라인 센터) - 
+                        <span className="text-gray-600 italic"> 블록체인 거버넌스 및 법적 함의 연구, 탈중앙화 자율 조직(DAO)과 신뢰 메커니즘 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Primavera De Filippi</span> (프랑스 국립과학연구센터 연구이사) - 
-                        <span className="text-gray-600 italic"> 블록체인과 디지털 자산 법적 프레임워크, NFT와 분산 신뢰 거버넌스 모델 개발</span>
+                        <span className="font-medium">Julie E. Cohen</span> (조지타운 로스쿨 법률 및 기술 교수) - 
+                        <span className="text-gray-600 italic"> 정보 자본주의의 법적 구성 연구, 법률 기관이 정보 시대의 경제적/사회기술적 변화를 공동 생산하는 과정 분석</span>
                       </div>
                     </li>
                   </ul>
