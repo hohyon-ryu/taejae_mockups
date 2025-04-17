@@ -251,22 +251,22 @@ const DigitalEconomyPoster: React.FC = () => {
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Shoshana Zuboff</span> (하버드 경영대학원 명예교수) - 
-                        <span className="text-gray-600 italic"> 감시 자본주의 (우리의 온라인 활동이 기업의 이윤을 위한 데이터로 수집되는 경제 체제) 개념 창시자, 인간 경험을 행동 데이터로 변환하여 예측 상품화하는 새로운 경제 논리 분석</span>
+                        <span className="font-medium">Manuel Castells</span> (바르셀로나대학교 석좌교수, 전 UC 버클리 교수) - 
+                        <span className="text-gray-600 italic"> '네트워크 사회(Network Society)' 개념 창시자, 디지털 기술이 개인, 공동체, 국가의 관계를 수평적 연결망 구조로 재편하는 과정 분석</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Brett Frischmann & Evan Selinger</span> (빌라노바 로스쿨/RIT 철학) - 
-                        <span className="text-gray-600 italic"> 기술-사회 공학 (기술이 우리의 사고와 행동 방식을 설계하고 변화시키는 과정) 개념 제시, 스마트 기술이 인간의 사고와 행동 방식을 프로그래밍하는 과정 분석</span>
+                        <span className="font-medium">Keith Hampton</span> (미시간주립대학교 교수) - 
+                        <span className="text-gray-600 italic"> '디지털 기술과 사회적 자본, 공동체 관계 변화' 분석, 디지털 인프라가 이웃 간 상호작용, 사회적 지지, 공동체 유대에 미치는 영향 관련 연구 진행</span>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="mr-1">•</span>
                       <div>
-                        <span className="font-medium">Nick Couldry & Ulises Mejias</span> (LSE/SUNY 오스위고) - 
-                        <span className="text-gray-600 italic"> 데이터 식민주의 (기업이 사람들의 일상 데이터를 자원처럼 추출하고 이용하는 새로운 형태의 지배) 개념 개발, 인간 삶을 자본주의를 위한 데이터로 전유하는 새로운 형태의 식민주의 분석</span>
+                        <span className="font-medium">Sherry Turkle</span> (MIT STS 교수) - 
+                        <span className="text-gray-600 italic"> '디지털 자아(Digital Self)' 개념과 함께, 디지털 기술이 인간의 정체성 형성, 가족 내 소통, 감정 표현 방식에 미치는 심리사회적 영향 분석</span>
                       </div>
                     </li>
                   </ul>
