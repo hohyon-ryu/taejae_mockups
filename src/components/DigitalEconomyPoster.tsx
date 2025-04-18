@@ -34,9 +34,9 @@ const DigitalEconomyPoster: React.FC = () => {
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
                 <h4 className="text-base font-bold text-gray-800 mb-1">개인</h4>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• AI로 개인의 능력 강화로 슈퍼휴먼 탄생 - 지식 접근성과 자기 해결 능력 증대</li>
-                  <li>• 전문직(의사, 변호사 등)의 업무가 개인화되면서 기존 전문직의 역할 변화</li>
-                  <li>• 10%의 슈퍼휴먼과 90%의 일반인으로 사회 양극화 가능성</li>
+                  <li>• AI로 인한 개인의 능력 강화로 슈퍼휴먼 탄생 - 자기 해결 능력이 뛰어난 개인의 등장</li>
+                  <li>• 소득 증가 계층(상위 10%)과 비용 절감 계층(30~70%)으로 사회 분화</li>
+                  <li>• 전문직의 역할 변화와 의사결정권자/영향력 있는 소수 계층의 강화</li>
                 </ul>
               </div>
               
@@ -110,7 +110,7 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>• 개인 역량 강화와 공동체의 통제 사이의 갈등</li>
                   <li>• 국가 단위 경제 구조와 규제의 한계</li>
                   <li>• 디지털 경제에 맞지 않는 조세 체계</li>
-                  <li>• 데이터 소유권 개념 혼란과 침해</li>
+                  <li>• 디지털 자산 소유·분배 기준 부재</li>
                 </ul>
               </div>
               
@@ -120,8 +120,8 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-1 text-gray-700">
                   <li>• 개인 강화와 공동체의 조화로운 성장</li>
                   <li>• 도시 중심 협력 네트워크 경제 구조</li>
-                  <li>• 투명하고 효율적인 디지털 조세 체계</li>
-                  <li>• 명확한 디지털 자산 소유권 보장</li>
+                  <li>• 투명하고 공평한 디지털 조세 체계</li>
+                  <li>• 정의로운 디지털 자산 소유·분배 체계 확립</li>
                 </ul>
               </div>
               
@@ -132,7 +132,7 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li>1. 개인의 강화와 공동체 변화 연구</li>
                   <li>2. 국가 개념의 변화와 역할 재정의</li>
                   <li>3. 디지털 시대 규제와 조세 체계 구축</li>
-                  <li>4. 데이터 소유권과 자산 개념 재설계</li>
+                  <li>4. 디지털 자산의 소유·분배 원칙 재설계</li>
                 </ul>
               </div>
             </div>
@@ -186,29 +186,36 @@ const DigitalEconomyPoster: React.FC = () => {
               
               {/* 과제 2: 국가 개념의 변화 */}
               <div className="bg-gray-50 p-3 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-base font-bold text-gray-800 mb-2">과제 2. 국가 개념의 변화 <span className="text-xs font-normal text-gray-500">(윤준영)</span></h4>
-                <p className="text-sm text-gray-700 mb-2">국가의 개념은 어떻게 달라지고, 그들은 어떻게 슈퍼휴먼의 활동에 개입할 수 있는가?</p>
+                <h4 className="text-base font-bold text-gray-800 mb-2">과제 2. 국가 기능의 재편과 도시-개인의 부상 <span className="text-xs font-normal text-gray-500">(윤준영)</span></h4>
+                <p className="text-sm text-gray-700 mb-2">국가의 전통적 기능이 어떻게 도시와 개인에게 재분배되고, 이것이 미래 사회의 권력구조와 의사결정 메커니즘을 재편할 것인가?</p>
                 
                 <ul className="text-sm space-y-1 text-gray-700">
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Anne-Marie Slaughter</span> (프린스턴 대학교 교수, 전 국무부 정책기획실장) - 
-                      <span className="text-gray-600 italic"> '네트워크 국가' 개념 제시, 국가 권력이 네트워크화된 주체들 간의 관계로 재편되는 과정 연구</span>
+                      <span className="font-medium">Simon Curtis</span> (University of East Anglia, 4-50대) - 
+                      <span className="text-gray-600 italic"> 도시가 국가의 부속물이 아니라 국제질서를 재편하는 독립 행위자라는 점을 이론적으로 정립한 도시 국제관계학(Urban IR)의 선구자</span>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Joseph Nye</span> (하버드 케네디 스쿨 교수) - 
-                      <span className="text-gray-600 italic"> '소프트 파워' 개념 창시자, 디지털 시대 국가의 영향력이 강제력보다 매력과 설득으로 변화하는 현상 분석</span>
+                      <span className="font-medium">Aihwa Ong</span> (University of California, Berkeley, 70대) - 
+                      <span className="text-gray-600 italic"> 시민권과 주권의 경계가 유동화되는 글로벌 시대의 권력 재편을 설명하는 '유연한 시민권'과 '점진적 주권' 개념의 창시자</span>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Parag Khanna</span> (싱가포르 국립대학 선임연구원) - 
-                      <span className="text-gray-600 italic"> '연결 지정학'(Connectography) 개념 제안, 국경보다 연결성이 중요해지는 세계 질서 분석</span>
+                      <span className="font-medium">Saskia Sassen</span> (Columbia University, 70대) - 
+                      <span className="text-gray-600 italic"> '글로벌 도시'와 '탈국가화'를 통해 자본주의와 권력이 도시를 중심으로 재배치되는 매커니즘을 설명한 도시사회학자</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-1">•</span>
+                    <div>
+                      <span className="font-medium">Global Parliament of Mayors</span> (네덜란드, 2016-현재) - 
+                      <span className="text-gray-600 italic"> Benjamin Barber가 설립한 글로벌 시장 의회로, 도시 정부(city government) 간 국제적 협의체</span>
                     </div>
                   </li>
                 </ul>
@@ -244,10 +251,10 @@ const DigitalEconomyPoster: React.FC = () => {
                 </ul>
               </div>
               
-              {/* 과제 4: 데이터 소유권과 자산 개념 */}
+              {/* 과제 4: 디지털 자산 및 소유권 개념 */}
               <div className="bg-gray-50 p-3 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-base font-bold text-gray-800 mb-2">과제 4. 데이터 소유권과 자산 개념 <span className="text-xs font-normal text-gray-500">(노가빈)</span></h4>
-                <p className="text-sm text-gray-700 mb-2">슈퍼 휴먼이 생산하는 데이터나 다양한 결과물에 대한 소유권은 어떻게 정립되어야 하는가?</p>
+                <h4 className="text-base font-bold text-gray-800 mb-2">과제 4. 디지털 자산 및 소유권 개념 <span className="text-xs font-normal text-gray-500">(노가빈)</span></h4>
+                <p className="text-sm text-gray-700 mb-2">슈퍼휴먼이 생산하는 디지털 생산물의 소유와 분배 질서는 어떻게 정립되어야 하는가?</p>
                 
                 <ul className="text-sm space-y-1 text-gray-700">
                   <li className="flex items-start">
@@ -260,15 +267,15 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Lisa Nakamura</span> (미시간 대학교 디지털 연구 교수) - 
-                      <span className="text-gray-600 italic"> 디지털 불평등과 사회정의 전문가, 디지털 자산 접근과 권리의 인종적, 사회적 불평등 연구</span>
+                      <span className="font-medium">Arun Sundararajan</span> (NYU 경영대학원 교수) - 
+                      <span className="text-gray-600 italic"> 공유 경제와 디지털 소유권 전문가, 디지털 플랫폼이 가치 창출과 소유권 개념에 미치는 영향 연구</span>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Arun Sundararajan</span> (NYU 경영대학원 교수) - 
-                      <span className="text-gray-600 italic"> 공유 경제와 디지털 소유권 전문가, 디지털 플랫폼이 가치 창출과 소유권 개념에 미치는 영향 연구</span>
+                      <span className="font-medium">Nick Srnicek</span> (킹스칼리지 런던 정치경제학과 교수) - 
+                      <span className="text-gray-600 italic"> 플랫폼 자본주의 이론가, 디지털 경제에서 데이터의 수집·통제·축적을 통해 형성되는 권력 구조와 소유의 정치 분석</span>
                     </div>
                   </li>
                 </ul>

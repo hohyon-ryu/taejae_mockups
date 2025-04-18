@@ -2,7 +2,6 @@ import { Route, HashRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 
 // Pages
-import DigitalEconomyPoster250414Page from './pages/DigitalEconomyPoster250414Page'; // Import the archived digital economy poster page
 import DigitalEconomyPosterPage from './pages/DigitalEconomyPosterPage'; // Import the digital economy poster page
 import ExplorationPage from './pages/ExplorationPage';
 import LandingPage from './pages/LandingPage';
@@ -28,7 +27,6 @@ function App() {
         <Route path="/poster/digital-transformation-social-change" element={<PosterPage />} /> {/* Renamed route for first poster */}
         <Route path="/poster/social-structure-matrix" element={<SocialStructureMatrixPosterPage />} /> {/* Route for second poster */}
         <Route path="/poster/digital-economy" element={<DigitalEconomyPosterPage />} /> {/* Route for digital economy poster */}
-        <Route path="/poster/digital-economy/250414" element={<DigitalEconomyPoster250414Page />} /> {/* Route for archived digital economy poster */}
         <Route path="/technology-evolution" element={<TechnologyEvolutionPage />} /> {/* New interactive page */}
       </Routes>
     </Router>
