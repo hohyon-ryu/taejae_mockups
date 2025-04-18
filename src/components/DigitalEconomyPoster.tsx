@@ -35,8 +35,8 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h4 className="text-base font-bold text-gray-800 mb-1">개인</h4>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• AI로 인한 개인의 능력 강화로 슈퍼휴먼 탄생 - 자기 해결 능력이 뛰어난 개인의 등장</li>
-                  <li>• 소득 증가 계층(상위 10%)과 비용 절감 계층(30~70%)으로 사회 분화</li>
-                  <li>• 전문직의 역할 변화와 의사결정권자/영향력 있는 소수 계층의 강화</li>
+                  <li>• AI를 활용하여 영향력 증폭(10%), 비용 절감(30~70%), 소외 계층으로 새롭게 분화</li>
+                  <li>• 전문직의 역할이 지식에서 책임으로 변화</li>
                 </ul>
               </div>
               
@@ -44,17 +44,17 @@ const DigitalEconomyPoster: React.FC = () => {
                 <h4 className="text-base font-bold text-gray-800 mb-1">가정</h4>
                 <ul className="text-sm space-y-0.5 text-gray-700">
                   <li>• 가족 제도 변화 - 결혼과 출산을 선택으로 인식하는 경향 증가</li>
-                  <li>• 개인 강화로 부모에 대한 의존도 감소, 전통적 가족관계 약화</li>
-                  <li>• 상호작용 필요성 감소로 1인 가구 증가, 새로운 형태의 가정 등장</li>
+                  <li>• 개인 강화로 가족에 대한 의존도 감소, 가족관계 약화</li>
+                  <li>• AI가 건강을 책임지고 커리어를 돕는 스마트홈</li>
                 </ul>
               </div>
               
               <div className="bg-gray-50 p-2 rounded-lg border-l-4 border-gray-300">
-                <h4 className="text-base font-bold text-gray-800 mb-1">이웃/공동체</h4>
+                <h4 className="text-base font-bold text-gray-800 mb-1">커뮤니티</h4>
                 <ul className="text-sm space-y-0.5 text-gray-700">
-                  <li>• 능력이 강화된 개인들이 원하는 새로운 형태의 공동체 등장</li>
+                  <li>• 능력이 강화된 개인들이공통 관심사나 가치관 중심으로 형성되는 느슨한 공동체</li>
                   <li>• 물리적 이동의 감소로 온라인 중심 커뮤니티 활성화</li>
-                  <li>• 공통 관심사나 가치관 중심으로 형성되는 느슨한 공동체</li>
+                  <li>• 개인의 사회적 의미가 능력에서 관계로 변화</li>
                 </ul>
               </div>
               
@@ -120,7 +120,7 @@ const DigitalEconomyPoster: React.FC = () => {
                 <ul className="text-sm space-y-1 text-gray-700">
                   <li>• 개인 강화와 공동체의 조화로운 성장</li>
                   <li>• 도시 중심 협력 네트워크 경제 구조</li>
-                  <li>• 투명하고 공평한 디지털 조세 체계</li>
+                  <li>• 공정하고 효율적인 디지털 조세 체계</li>
                   <li>• 정의로운 디지털 자산 소유·분배 체계 확립</li>
                 </ul>
               </div>
@@ -177,8 +177,8 @@ const DigitalEconomyPoster: React.FC = () => {
                   <li className="flex items-start">
                     <span className="mr-1">•</span>
                     <div>
-                      <span className="font-medium">Shoshana Zuboff</span> (하버드 경영대학원 명예교수) - 
-                      <span className="text-gray-600 italic"> '감시 자본주의' 개념 창시자, 개인 데이터 추출과 행동 예측을 통한 새로운 권력 구조 형성 분석</span>
+                      <span className="font-medium">Stuart Russell</span> (UC 버클리 컴퓨터공학과 교수, 『인공지능: 현대적 접근』 공동 저자) - 
+                      <span className="text-gray-600 italic"> 인간 중심 AI 설계 및 통제 가능성 강조. AI 시스템의 사회적 위험과 윤리적 설계에 대한 국제적 자문 활동, Human-compatible AI 연구 프레임 제안</span>
                     </div>
                   </li>
                 </ul>
